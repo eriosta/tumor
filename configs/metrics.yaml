@@ -1,0 +1,13 @@
+quant_fields:
+- primary_tumor.size_mm
+- lymph_node.short_axis_mm
+- metastasis.size_mm
+qual_fields:
+- primary_tumor.margin
+- primary_tumor.enhancement
+- lymph_node.necrosis
+- metastasis.site
+match_policy:
+  quant_tolerance_mm: 2
+  string_fuzzy: true
+  enum_strict: true

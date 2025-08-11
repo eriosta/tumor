@@ -1,0 +1,35 @@
+{
+  "version": "0.1",
+  "units": {
+    "length": "mm"
+  },
+  "entities": {
+    "primary_tumor": {
+      "size_mm": "number",
+      "location": "string",
+      "margin": "enum[regular, irregular, spiculated]",
+      "enhancement": "enum[none, hypo, iso, hyper]",
+      "certainty": "enum[possible, probable, definite]"
+    },
+    "lymph_node": {
+      "lesion_id": "string",
+      "station": "string",
+      "short_axis_mm": "number",
+      "necrosis": "bool",
+      "FDG_avid": "bool",
+      "certainty": "enum[possible, probable, definite]"
+    },
+    "metastasis": {
+      "site": "string",
+      "size_mm": "number",
+      "FDG_avid": "bool",
+      "certainty": "enum[possible, probable, definite]"
+    }
+  },
+  "relations": {
+    "compared_to_prior": {
+      "prior_date": "date?",
+      "change": "enum[smaller, stable, larger, new]"
+    }
+  }
+}
