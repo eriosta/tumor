@@ -1,0 +1,36 @@
+EXAM: CT CAP
+TECHNIQUE: CT chest, abdomen, and pelvis performed with IV contrast. Contiguous ≤5-mm axial images.
+HISTORY: Staging evaluation of known solid malignancy.
+
+FINDINGS:
+Pulmonary parenchyma: Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Enlarged right hilar lymph node, short axis 1.3 cm. Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: 32 mm lesion in the peritoneum, suspicious for metastasis. No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: 19 mm irregular mass within the prostate gland, peripheral zone. No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged porta hepatis lymph node, short axis 13 mm. Enlarged inguinal lymph node, short axis 25 mm with central necrosis. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+
+IMPRESSION:
+- Prostate primary malignancy at prostate gland, peripheral zone measuring approximately 19 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: lung, peritoneum.
+- RECIST 1.1 Summary:
+- Target lesions (n=4; ≤2 per organ rule applied).
+  • T1: Primary — 19→11 mm (longest diameter).
+  • T2: Metastasis — 32→20 mm (longest diameter).
+  • T3: Metastasis — 35→21 mm (longest diameter).
+  • T4: Lymph node — 25→16 mm (short axis).
+- SLD baseline: 111 mm.
+- SLD current: 68 mm (-38.7% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: PR.

@@ -1,0 +1,36 @@
+EXAM: CT CAP
+TECHNIQUE: Contrast-enhanced CT CAP with portal venous phase abdomen/pelvis; chest imaged in a single post-contrast phase.
+HISTORY: Staging evaluation of known solid malignancy.
+
+FINDINGS:
+Lungs: No focal consolidation or suspicious pulmonary nodules. No pneumothorax.
+Mediastinum: Enlarged right hilar lymph node, short axis 19 mm. Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: 1.5 cm spiculated gastric mass at the fundus of the stomach (hypoenhancing). No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged retroperitoneal lymph node, short axis 18 mm with central necrosis. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+
+IMPRESSION:
+- Stomach primary malignancy at fundus of the stomach measuring approximately 15 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: lung.
+- RECIST 1.1 Summary:
+- Target lesions (n=4; ≤2 per organ rule applied).
+  • T1: Primary — 15→14 mm (longest diameter).
+  • T2: Metastasis — 38→34 mm (longest diameter).
+  • T3: Lymph node — 19→18 mm (short axis).
+  • T4: Lymph node — 18→17 mm (short axis).
+- SLD baseline: 90 mm.
+- SLD current: 83 mm (-7.8% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: SD.

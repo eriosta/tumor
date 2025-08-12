@@ -1,0 +1,35 @@
+EXAM: CT CAP
+TECHNIQUE: CT chest, abdomen, and pelvis performed with IV contrast. Contiguous ≤5-mm axial images.
+HISTORY: Staging evaluation of known solid malignancy.
+
+FINDINGS:
+Pulmonary parenchyma: No focal consolidation or suspicious pulmonary nodules. No pneumothorax.
+Mediastinum: Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: 4.4 cm lobulated enhancing renal mass in the left kidney, upper pole. No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged retroperitoneal lymph node, short axis 26 mm. Enlarged inguinal lymph node, short axis 8 mm with central necrosis. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+Comparison: Compared to prior 08/02/2023, primary mass new.
+
+IMPRESSION:
+- Kidney primary malignancy at left kidney, upper pole measuring approximately 44 mm.
+- Findings concerning for nodal involvement.
+- No definite distant metastases identified.
+- RECIST 1.1 Summary:
+- Target lesions (n=2; ≤2 per organ rule applied).
+  • T1: Primary — 44→43 mm (longest diameter).
+  • T2: Lymph node — 26→25 mm (short axis).
+- SLD baseline: 70 mm.
+- SLD current: 68 mm (-2.9% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: SD.

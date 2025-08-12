@@ -1,0 +1,34 @@
+EXAM: CT CAP
+TECHNIQUE: CT chest, abdomen, and pelvis performed with IV contrast. Contiguous ≤5-mm axial images.
+HISTORY: Staging evaluation of known solid malignancy.
+
+FINDINGS:
+Lungs: 32 mm smooth mass in the left middle lobe (hypoenhancing). Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Enlarged paratracheal lymph node, short axis 0.9 cm. Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged inguinal lymph node, short axis 9 mm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+Comparison: Compared to prior 11/03/2024, primary mass smaller.
+
+IMPRESSION:
+- Lung primary malignancy at left middle lobe measuring approximately 32 mm.
+- Findings concerning for nodal involvement.
+- No definite distant metastases identified.
+- RECIST 1.1 Summary:
+- Target lesions (n=1; ≤2 per organ rule applied).
+  • T1: Primary — 32→22 mm (longest diameter).
+- SLD baseline: 32 mm.
+- SLD current: 22 mm (-31.2% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: PR.

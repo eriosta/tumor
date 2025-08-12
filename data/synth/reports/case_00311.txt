@@ -1,0 +1,35 @@
+EXAM: CT CAP
+TECHNIQUE: CT chest, abdomen, and pelvis performed with IV contrast. Contiguous ≤5-mm axial images.
+HISTORY: Staging evaluation of known solid malignancy.
+
+FINDINGS:
+Lungs: Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Enlarged subcarinal lymph node, short axis 2.8 cm. Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: 4.8 cm spiculated mass involving the descending colon with focal wall thickening (isoenhancing). No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: Diffuse peritoneal thickening with nodularity and ascites, poorly defined—nonmeasurable by RECIST. No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged obturator lymph node, short axis 11 mm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+Comparison: Compared to prior 05/28/2023, primary mass stable.
+
+IMPRESSION:
+- Colon primary malignancy at descending colon measuring approximately 48 mm.
+- Findings concerning for nodal involvement.
+- No definite distant metastases identified.
+- RECIST 1.1 Summary:
+- Target lesions (n=2; ≤2 per organ rule applied).
+  • T1: Primary — 48→62 mm (longest diameter).
+  • T2: Lymph node — 28→34 mm (short axis).
+- SLD baseline: 76 mm.
+- SLD current: 96 mm (+26.3% change).
+- New lesions: present (unequivocal).
+- - RECIST 1.1 overall response category: PD.

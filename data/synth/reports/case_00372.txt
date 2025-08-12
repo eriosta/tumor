@@ -1,0 +1,36 @@
+EXAM: CT CAP
+TECHNIQUE: CT chest, abdomen, and pelvis performed with IV contrast. Contiguous ≤5-mm axial images.
+HISTORY: Staging evaluation of known solid malignancy.
+
+FINDINGS:
+Lungs: 2.1 cm lobulated mass in the right upper lobe (hyperenhancing). Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: 0.6 cm lesion in the adrenal, suspicious for metastasis. Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged retroperitoneal lymph node, short axis 30 mm with central necrosis. Enlarged internal iliac lymph node, short axis 1.3 cm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+Comparison: Compared to prior 12/19/2023, primary mass stable.
+
+IMPRESSION:
+- Lung primary neoplasm (possible) at right upper lobe measuring approximately 21 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: adrenal, lung.
+- RECIST 1.1 Summary:
+- Target lesions (n=3; ≤2 per organ rule applied).
+  • T1: Primary — 21→29 mm (longest diameter).
+  • T2: Metastasis — 31→45 mm (longest diameter).
+  • T3: Lymph node — 30→41 mm (short axis).
+- SLD baseline: 82 mm.
+- SLD current: 115 mm (+40.2% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: PD.

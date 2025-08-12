@@ -1,0 +1,35 @@
+EXAM: CT CAP
+TECHNIQUE: Contrast-enhanced CT CAP with portal venous phase abdomen/pelvis; chest imaged in a single post-contrast phase.
+HISTORY: Staging evaluation of known solid malignancy.
+
+FINDINGS:
+Pulmonary parenchyma: Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: 14 mm lesion in the liver, suspicious for metastasis. No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: 1.6 cm smooth mass involving the sigmoid colon with focal wall thickening (isoenhancing). No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged obturator lymph node, short axis 9 mm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+Comparison: Compared to prior 09/16/2020, primary mass stable.
+
+IMPRESSION:
+- Colon primary malignancy at sigmoid colon measuring approximately 16 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: liver.
+- RECIST 1.1 Summary:
+- Target lesions (n=2; ≤2 per organ rule applied).
+  • T1: Primary — 16→9 mm (longest diameter).
+  • T2: Metastasis — 14→8 mm (longest diameter).
+- SLD baseline: 30 mm.
+- SLD current: 17 mm (-43.3% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: PR.

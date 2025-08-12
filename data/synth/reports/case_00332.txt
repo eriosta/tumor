@@ -1,0 +1,35 @@
+EXAM: CT CAP
+TECHNIQUE: Contrast-enhanced CT CAP with portal venous phase abdomen/pelvis; chest imaged in a single post-contrast phase.
+HISTORY: Staging evaluation of known solid malignancy.
+
+FINDINGS:
+Pulmonary parenchyma: Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: 65 mm lobulated hepatic mass in segment 2 of the liver (hyperenhancing). 38 mm lesion in the liver, suspicious for metastasis. No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: 14 mm lesion in the peritoneum, suspicious for metastasis. No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+
+IMPRESSION:
+- Liver primary malignancy at segment 2 of the liver measuring approximately 65 mm.
+- No pathologically enlarged lymph nodes by size criteria.
+- Findings compatible with distant metastases involving: liver, peritoneum.
+- RECIST 1.1 Summary:
+- Target lesions (n=3; ≤2 per organ rule applied).
+  • T1: Primary — 65→43 mm (longest diameter).
+  • T2: Metastasis — 38→25 mm (longest diameter).
+  • T3: Metastasis — 14→9 mm (longest diameter).
+- SLD baseline: 117 mm.
+- SLD current: 77 mm (-34.2% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: PR.

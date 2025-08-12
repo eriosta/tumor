@@ -1,0 +1,37 @@
+EXAM: CT CAP
+TECHNIQUE: CT chest, abdomen, and pelvis performed with IV contrast. Contiguous ≤5-mm axial images.
+HISTORY: Staging evaluation of known solid malignancy.
+
+FINDINGS:
+Lungs: Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: 21 mm lesion in the liver, suspicious for metastasis. No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: 2.6 cm irregular mass within the prostate gland, peripheral zone. No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged porta hepatis lymph node, short axis 2.6 cm with central necrosis. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+Comparison: Compared to prior 03/06/2024, primary mass smaller.
+
+IMPRESSION:
+- Prostate primary malignancy at prostate gland, peripheral zone measuring approximately 26 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: liver, lung.
+- RECIST 1.1 Summary:
+- Target lesions (n=4; ≤2 per organ rule applied).
+  • T1: Primary — 26→14 mm (longest diameter).
+  • T2: Metastasis — 39→22 mm (longest diameter).
+  • T3: Metastasis — 21→11 mm (longest diameter).
+  • T4: Lymph node — 26→15 mm (short axis).
+- SLD baseline: 112 mm.
+- SLD current: 62 mm (-44.6% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: PR.

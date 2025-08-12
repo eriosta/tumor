@@ -1,0 +1,36 @@
+EXAM: CT CAP
+TECHNIQUE: Contrast-enhanced CT CAP with portal venous phase abdomen/pelvis; chest imaged in a single post-contrast phase.
+HISTORY: Staging evaluation of known solid malignancy.
+
+FINDINGS:
+Lungs: No focal consolidation or suspicious pulmonary nodules. No pneumothorax.
+Mediastinum: Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: 71 mm complex adnexal mass in the right adnexa. No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged mesenteric lymph node, short axis 16 mm. Enlarged obturator lymph node, short axis 8 mm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+Comparison: Compared to prior 02/06/2025, primary mass smaller.
+
+IMPRESSION:
+- Ovary primary malignancy at right adnexa measuring approximately 71 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: lung.
+- RECIST 1.1 Summary:
+- Target lesions (n=3; ≤2 per organ rule applied).
+  • T1: Primary — 71→42 mm (longest diameter).
+  • T2: Metastasis — 14→9 mm (longest diameter).
+  • T3: Lymph node — 16→10 mm (short axis).
+- SLD baseline: 101 mm.
+- SLD current: 61 mm (-39.6% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: PR.
