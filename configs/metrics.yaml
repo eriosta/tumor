@@ -5,8 +5,7 @@ quant_fields:
 qual_fields:
 - primary_tumor.margin
 - primary_tumor.enhancement
-- lymph_node.necrosis
-- metastasis.site
+- primary_tumor.organ
 match_policy:
   quant_tolerance_mm: 2
   string_fuzzy: true

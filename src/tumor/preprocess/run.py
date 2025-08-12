@@ -1,25 +1,22 @@
-import argparse, json, os, re, uuid, glob
-from datetime import datetime
+import argparse, json, os, re, glob
 
 def section_report(text: str):
-    # Simple splitter; replace with robust parser if needed
     parts = re.split(r'\b(IMPRESSION|FINDINGS)\b[:\-]?', text, flags=re.I)
     return {"full": text, "findings": text, "impression": text} if len(parts) < 3 else {
-        "full": text, "findings": parts[parts.index("FINDINGS")+1] if "FINDINGS" in parts else "",
+        "full": text,
+        "findings": parts[parts.index("FINDINGS")+1] if "FINDINGS" in parts else "",
         "impression": parts[parts.index("IMPRESSION")+1] if "IMPRESSION" in parts else ""
     }
 
 def normalize_units(text: str):
-    # Convert cm to mm
-    text = re.sub(r'(\d+(\.\d+)?)\s*cm\b', lambda m: f"{int(round(float(m.group(1))*10))} mm", text, flags=re.I)
-    return text
+    return re.sub(r'(\d+(\.\d+)?)\s*cm\b', lambda m: f"{int(round(float(m.group(1))*10))} mm", text, flags=re.I)
 
-def to_example(record_text: str, schema: dict):
-    # Minimal heuristic bootstrap to create train example
+def to_example(record_text: str):
+    # minimal placeholder bootstrap; you will replace with better heuristics or labeler
     ex = {"report_text": record_text.strip(), "schema_json": {}}
-    m_size = re.search(r'(\d+)\s*mm\b.*?(mass|lesion)', record_text, flags=re.I)
-    if m_size:
-        ex["schema_json"]["primary_tumor"] = {"size_mm": int(m_size.group(1))}
+    m = re.search(r'(\d+)\s*mm\b.*?(mass|lesion)', record_text, flags=re.I)
+    if m:
+        ex["schema_json"]["primary_tumor"] = {"size_mm": int(m.group(1))}
     return ex
 
 def main():
@@ -30,8 +27,6 @@ def main():
     args = ap.parse_args()
 
     os.makedirs(args.out_dir, exist_ok=True)
-    schema = json.load(open(args.schema))
-
     files = sorted(glob.glob(os.path.join(args.in_dir, "*.txt")))
     out_train = open(os.path.join(args.out_dir, "train.jsonl"), "w")
     out_val = open(os.path.join(args.out_dir, "val.jsonl"), "w")
@@ -41,7 +36,7 @@ def main():
         text = open(fp).read()
         text = normalize_units(text)
         sections = section_report(text)
-        ex = to_example(sections["full"], schema)
+        ex = to_example(sections["full"])
         line = json.dumps(ex)
         if i % 10 == 0:
             out_val.write(line + "\n")

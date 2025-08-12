@@ -1,35 +1,31 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "units": {
     "length": "mm"
   },
   "entities": {
     "primary_tumor": {
-      "size_mm": "number",
+      "organ": "enum[lung,colon,pancreas,kidney,liver,ovary,prostate,stomach]",
       "location": "string",
-      "margin": "enum[regular, irregular, spiculated]",
-      "enhancement": "enum[none, hypo, iso, hyper]",
-      "certainty": "enum[possible, probable, definite]"
+      "size_mm": "number",
+      "margin": "enum[regular,irregular,spiculated]",
+      "enhancement": "enum[hypo,iso,hyper]",
+      "certainty": "enum[possible,probable,definite]"
     },
     "lymph_node": {
-      "lesion_id": "string",
+      "region": "enum[thoracic,abdominal,pelvic]",
       "station": "string",
       "short_axis_mm": "number",
-      "necrosis": "bool",
-      "FDG_avid": "bool",
-      "certainty": "enum[possible, probable, definite]"
+      "necrosis": "bool"
     },
     "metastasis": {
-      "site": "string",
-      "size_mm": "number",
-      "FDG_avid": "bool",
-      "certainty": "enum[possible, probable, definite]"
+      "site": "enum[liver,adrenal,bone,lung,peritoneum]",
+      "size_mm": "number"
     }
   },
   "relations": {
     "compared_to_prior": {
-      "prior_date": "date?",
-      "change": "enum[smaller, stable, larger, new]"
+      "present": "bool"
     }
   }
 }

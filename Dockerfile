@@ -1,4 +1,3 @@
-# Minimal CUDA-free image; adjust base if using GPUs.
 FROM python:3.11-slim
 WORKDIR /app
 COPY requirements.txt .

@@ -11,8 +11,7 @@ def main():
         for fp in glob.glob(os.path.join(args.in_dir, "*.jsonl")):
             for line in open(fp):
                 ex = json.loads(line)
-                seed = {"report_text": ex.get("report_text",""), "label": ex.get("schema_json",{})}
-                out.write(json.dumps(seed) + "\n")
+                out.write(json.dumps({"report_text": ex.get("report_text",""), "label": ex.get("schema_json",{})}) + "\n")
 
 if __name__ == "__main__":
     main()

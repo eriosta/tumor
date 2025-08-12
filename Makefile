@@ -1,4 +1,4 @@
-.PHONY: test format lint
+.PHONY: test db-up db-down
 
 test:
 	pytest -q
