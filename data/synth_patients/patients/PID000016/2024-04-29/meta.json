@@ -1,0 +1,11 @@
+{
+  "patient_id": "PID000016",
+  "timepoint": 3,
+  "study_date": "2024-04-29",
+  "recist": {
+    "baseline_sld_mm": 59,
+    "current_sld_mm": 75,
+    "nadir_sld_mm": 35,
+    "overall_response": "PD"
+  }
+}

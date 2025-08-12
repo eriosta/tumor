@@ -10,7 +10,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 # 1) Generate synthetic CT CAP reports
-python -m tumor.synth.gen_cap --out_dir data/synth --n 500 --seed 42 --style structured --include_negatives
+python -m tumor.synth.gen_cap --out_dir data/synth --n 500 --seed 42 --style structured --include_negatives --timepoints 2
 
 # 2) Preprocess into JSONL splits
 python -m tumor.preprocess.run --in_dir data/synth/reports --out_dir data/processed --schema configs/tnm_schema.json
