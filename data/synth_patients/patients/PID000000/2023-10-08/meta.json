@@ -1,0 +1,79 @@
+{
+  "patient_id": "PID000000",
+  "timepoint": 1,
+  "study_date": "2023-10-08",
+  "recist": {
+    "baseline_sld_mm": 59,
+    "current_sld_mm": 36,
+    "nadir_sld_mm": 36,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 3,
+    "level_name": "C3",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": 4.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "bones",
+        "text": "degenerative changes"
+      },
+      {
+        "organ": "pleura",
+        "text": "pleural calcifications"
+      },
+      {
+        "organ": "pancreas",
+        "text": "simple cyst (<2 cm)"
+      },
+      {
+        "organ": "pleura",
+        "text": "trace effusion"
+      },
+      {
+        "organ": "spleen",
+        "text": "accessory spleen"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: consolidation conforming to beam path"
+    ]
+  }
+}

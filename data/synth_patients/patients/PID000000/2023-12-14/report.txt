@@ -1,0 +1,55 @@
+EXAM: CT CAP
+TECHNIQUE: Contrast-enhanced CT CAP with portal venous phase abdomen/pelvis; chest imaged in a single post-contrast phase. Partial volume averaging may obscure small foci.
+HISTORY: Staging/restaging of solid malignancy.
+
+FINDINGS:
+Pulmonary parenchyma: Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Enlarged right hilar lymph node, short axis 1.7 cm. Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: 1.2 cm irregular mass involving the transverse colon with focal wall thickening (hyperenhancing). No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged celiac lymph node, short axis 9 mm. Enlarged internal iliac lymph node, short axis 3.0 cm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+Comparison: Compared to prior 2023-10-08, interval evaluation as below.
+POST-TREATMENT / PROCEDURAL CHANGES:
+- Radiation change: wall thickening and submucosal edema in irradiated bowel
+- Postsurgical change: postoperative fluid/stranding
+
+INCIDENTAL / OTHER FINDINGS:
+- adrenals: lipid-rich adenoma
+- gi.colon: diverticulosis
+- gi.stomach: physiologic under-distension thickening
+
+NEGATIVE FINDINGS:
+- adrenals: no adrenal nodule
+- kidneys: kidneys are normal
+- bones: no destructive osseous lesion
+- mediastinum: no mediastinal mass
+- aorta_great_vessels: aorta normal caliber
+- bladder: urinary bladder normal
+- gi: no bowel obstruction
+
+IMPRESSION:
+- Colon primary neoplasm (indeterminate) at transverse colon measuring approximately 12 mm.
+- Findings concerning for nodal involvement.
+- No definite distant metastases identified.
+- RECIST 1.1 Summary:
+- Target lesions (n=3; ≤2 per organ rule applied).
+  • T1: Primary — 18→12 mm (longest diameter).
+  • T2: Lymph node — 26→17 mm (short axis).
+  • T3: Lymph node — 15→9 mm (short axis).
+- SLD baseline: 59 mm.
+- SLD current: 38 mm (-35.6% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: PR.
+
+Comment: Some features are diagnostic of; short-interval follow-up or problem-solving imaging may be considered.

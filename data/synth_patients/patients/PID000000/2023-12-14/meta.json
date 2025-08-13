@@ -1,0 +1,72 @@
+{
+  "patient_id": "PID000000",
+  "timepoint": 2,
+  "study_date": "2023-12-14",
+  "recist": {
+    "baseline_sld_mm": 59,
+    "current_sld_mm": 38,
+    "nadir_sld_mm": 36,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 3,
+    "level_name": "C3",
+    "artifact": {
+      "key": "partial_volume",
+      "impact": 1,
+      "report_phrase": "Partial volume averaging may obscure small foci.",
+      "severity_rank": 1
+    }
+  },
+  "staging_relevance": 4.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "adrenals",
+        "text": "lipid-rich adenoma"
+      },
+      {
+        "organ": "gi.colon",
+        "text": "diverticulosis"
+      },
+      {
+        "organ": "gi.stomach",
+        "text": "physiologic under-distension thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      },
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: wall thickening and submucosal edema in irradiated bowel",
+      "Postsurgical change: postoperative fluid/stranding"
+    ]
+  }
+}

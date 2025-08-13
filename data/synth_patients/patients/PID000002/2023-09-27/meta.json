@@ -1,0 +1,75 @@
+{
+  "patient_id": "PID000002",
+  "timepoint": 1,
+  "study_date": "2023-09-27",
+  "recist": {
+    "baseline_sld_mm": 81,
+    "current_sld_mm": 86,
+    "nadir_sld_mm": 81,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 3,
+    "level_name": "C3",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": 4.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "mediastinum",
+        "text": "prominent but subthreshold lymph nodes"
+      },
+      {
+        "organ": "lung",
+        "text": "bronchial wall thickening"
+      },
+      {
+        "organ": "bladder",
+        "text": "under-distension wall thickening"
+      },
+      {
+        "organ": "gi.small_bowel",
+        "text": "nonspecific fluid levels"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "lung",
+        "text": "no pulmonary abnormality"
+      },
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: traction bronchiectasis"
+    ]
+  }
+}

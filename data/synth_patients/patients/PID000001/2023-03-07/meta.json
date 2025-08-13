@@ -1,0 +1,65 @@
+{
+  "patient_id": "PID000001",
+  "timepoint": 0,
+  "study_date": "2023-03-07",
+  "recist": {
+    "baseline_sld_mm": 48,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 3,
+    "level_name": "C3",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": -2.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "mild bronchiectasis"
+      },
+      {
+        "organ": "reproductive.ovary",
+        "text": "simple physiologic cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "lung",
+        "text": "no suspicious pulmonary nodule"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      }
+    ],
+    "post_treatment": []
+  }
+}

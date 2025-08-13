@@ -1,0 +1,75 @@
+{
+  "patient_id": "PID000002",
+  "timepoint": 2,
+  "study_date": "2023-11-21",
+  "recist": {
+    "baseline_sld_mm": 81,
+    "current_sld_mm": 70,
+    "nadir_sld_mm": 70,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 3,
+    "level_name": "C3",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": 4.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "reproductive.ovary",
+        "text": "simple physiologic cyst"
+      },
+      {
+        "organ": "bladder",
+        "text": "under-distension wall thickening"
+      },
+      {
+        "organ": "gi.small_bowel",
+        "text": "nonspecific fluid levels"
+      },
+      {
+        "organ": "kidneys",
+        "text": "angiomyolipoma (macroscopic fat)"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: fibrosis"
+    ]
+  }
+}

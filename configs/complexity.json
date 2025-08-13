@@ -1,0 +1,255 @@
+{
+  "version": "1.0",
+  "description": "Complexity and realism controls for synthetic CT CAP oncologic reports (findings + impression).",
+  "levels_legend": {
+    "C0": "near-normal; minimal incidental; no artifacts",
+    "C1": "few lesions; light incidental; clean technique",
+    "C2": "typical staging; several targets; mild artifact",
+    "C3": "treatment effects + more incidental + equivocal language; moderate artifact",
+    "C4": "post-treatment + complex anatomy/variants + mimics; significant artifact; frequent equivocation",
+    "C5": "maximal disease + post-treatment + high incidental burden + severe artifacts/limitations"
+  },
+  "global": {
+    "uncertainty_language": {
+      "unlikely": { "prob_estimate": 0.25, "phrases": ["unlikely", "low likelihood of", "less likely"] },
+      "possible": { "prob_estimate": 0.50, "phrases": ["possible", "indeterminate for", "could reflect"] },
+      "probable": { "prob_estimate": 0.75, "phrases": ["probable", "most likely", "favored to represent"] },
+      "diagnostic_of": { "prob_estimate": 0.95, "phrases": ["diagnostic of", "classic for", "virtually diagnostic of"] }
+    },
+    "hedge_usage_by_level": { "C0": 0.02, "C1": 0.05, "C2": 0.12, "C3": 0.25, "C4": 0.40, "C5": 0.55 },
+    "artifacts_ct": {
+      "types": {
+        "none": { "impact": 0 },
+        "motion_mild": { "impact": 1, "report_phrase": "Respiratory motion artifact partially limits assessment." },
+        "motion_moderate": { "impact": 2, "report_phrase": "Motion artifact limits evaluation of small lesions in affected regions." },
+        "beam_hardening": { "impact": 2, "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation." },
+        "metal_streak": { "impact": 3, "report_phrase": "Extensive streak artifact from surgical clips limits adjacent evaluation." },
+        "photon_starvation": { "impact": 2, "report_phrase": "Reduced signal causing photon starvation artifact in large patients." },
+        "partial_volume": { "impact": 1, "report_phrase": "Partial volume averaging may obscure small foci." }
+      },
+      "weights_by_level": {
+        "C0": { "none": 0.95, "motion_mild": 0.05 },
+        "C1": { "none": 0.85, "motion_mild": 0.10, "partial_volume": 0.05 },
+        "C2": { "none": 0.70, "motion_mild": 0.15, "beam_hardening": 0.10, "partial_volume": 0.05 },
+        "C3": { "none": 0.45, "motion_mild": 0.20, "beam_hardening": 0.15, "metal_streak": 0.10, "partial_volume": 0.10 },
+        "C4": { "none": 0.25, "motion_moderate": 0.25, "metal_streak": 0.25, "beam_hardening": 0.15, "partial_volume": 0.10 },
+        "C5": { "none": 0.10, "motion_moderate": 0.35, "metal_streak": 0.35, "beam_hardening": 0.15, "partial_volume": 0.05 }
+      }
+    },
+    "structured_negatives": {
+      "lung": ["lungs are normal", "no pulmonary abnormality", "no pleural effusion", "no suspicious pulmonary nodule"],
+      "mediastinum": ["no mediastinal mass", "no pathologic mediastinal lymphadenopathy"],
+      "pleura": ["no pleural effusion", "no pleural nodularity"],
+      "aorta_great_vessels": ["aorta normal caliber", "no aneurysm or dissection"],
+      "liver": ["liver is normal", "no hepatic mass"],
+      "spleen": ["spleen normal size", "no focal splenic lesion"],
+      "pancreas": ["pancreas is normal", "no pancreatic mass"],
+      "adrenals": ["adrenal glands normal", "no adrenal nodule"],
+      "kidneys": ["kidneys are normal", "no renal mass"],
+      "bladder": ["urinary bladder normal", "no focal bladder wall thickening"],
+      "gi": ["stomach is normal", "no colonic mass", "no bowel obstruction"],
+      "mesentery_peritoneum": ["no ascites", "no peritoneal nodularity"],
+      "reproductive": ["ovaries are normal / no adnexal abnormality", "prostate is normal / no prostatic mass"],
+      "bones": ["no destructive osseous lesion"]
+    }
+  },
+  "recist_helpers": {
+    "target_count_range_by_level": { "C0": [0, 0], "C1": [0, 1], "C2": [2, 4], "C3": [3, 5], "C4": [4, 6], "C5": [5, 8] },
+    "nontarget_count_range_by_level": { "C0": [0, 0], "C1": [0, 1], "C2": [1, 3], "C3": [2, 5], "C4": [3, 6], "C5": [4, 8] },
+    "new_lesion_probability_by_level": { "C0": 0.00, "C1": 0.03, "C2": 0.08, "C3": 0.15, "C4": 0.25, "C5": 0.40 },
+    "node_thresholds_mm": { "target_short_axis_min": 15, "nontarget_short_axis_range": [10, 14] },
+    "size_noise_mm": { "baseline_sd": 0.0, "followup_sd": 1.0 },
+    "equivocal_node_probability": { "C2": 0.05, "C3": 0.10, "C4": 0.15, "C5": 0.20 }
+  },
+  "staging_relevance_weights": {
+    "new_measurable_metastasis": 10.0,
+    "recist_pd_vs_nadir": 8.0,
+    "short_axis_node_crossing_threshold": 6.0,
+    "target_growth_ge20pct_from_nadir": 5.0,
+    "unequivocal_non_target_progression": 3.0,
+    "artifact_penalty": { "mild": 1.0, "moderate": 2.0, "severe": 4.0 },
+    "equivocal_language_penalty": 1.0,
+    "treatment_effect_explains_size_change_credit": 2.0
+  },
+  "post_treatment_effects": {
+    "radiation": {
+      "lung": {
+        "acute": ["ground-glass opacities within field", "consolidation conforming to beam path"],
+        "chronic": ["volume loss", "fibrosis", "traction bronchiectasis"],
+        "weight_by_level": { "C2": 0.10, "C3": 0.30, "C4": 0.50, "C5": 0.60 }
+      },
+      "abdomen_pelvis_generic": {
+        "acute": ["wall thickening and submucosal edema in irradiated bowel"],
+        "chronic": ["fibrosis", "stricture formation", "fat stranding"],
+        "weight_by_level": { "C2": 0.10, "C3": 0.25, "C4": 0.45, "C5": 0.55 }
+      }
+    },
+    "surgery": {
+      "pancreas": ["surgical clips", "altered anatomy post-resection", "postoperative fluid collection"],
+      "colon": ["anastomosis with staple line", "postoperative fluid/stranding"],
+      "liver": ["resection margin changes"],
+      "pelvis": ["brachytherapy seeds", "post-hysterectomy anatomy", "post-prostatectomy bed changes"],
+      "weight_by_level": { "C2": 0.10, "C3": 0.25, "C4": 0.40, "C5": 0.50 }
+    },
+    "ablation_embolization": {
+      "kidney": ["non-enhancing ablation zone with peripheral halo; contraction over time"],
+      "liver": ["non-enhancing ablation cavity with peripheral rim; SBRT field with altered enhancement"],
+      "weight_by_level": { "C2": 0.05, "C3": 0.15, "C4": 0.30, "C5": 0.40 }
+    }
+  },
+  "organs": {
+    "lung": {
+      "malignant_patterns": ["cannonball metastases", "lymphangitic carcinomatosis (interlobular septal thickening, peribronchovascular lines)"],
+      "incidental": ["<6 mm well-circumscribed nodule", "calcified granuloma", "bronchial wall thickening", "mild bronchiectasis", "subpleural reticulation", "dependent atelectasis"],
+      "mimics": ["infectious/inflammatory nodules", "organizing pneumonia", "post-radiation change"],
+      "targets_template": ["Right lower lobe nodule, {size_mm} mm, solid, {margins} margins"],
+      "nontargets_template": ["Scattered sub-6 mm nodules, non-specific"]
+    },
+    "mediastinum": {
+      "incidental": ["small thymic remnant", "prominent but subthreshold lymph nodes"],
+      "mimics": ["thymic hyperplasia", "cyst"],
+      "nodes_template": ["{station} node short axis {size_mm} mm"]
+    },
+    "pleura": {
+      "incidental": ["trace effusion", "pleural calcifications"],
+      "mimics": ["scar plaques"]
+    },
+    "aorta_great_vessels": {
+      "incidental": ["mild aortic atherosclerosis", "tortuosity"],
+      "mimics": []
+    },
+    "liver": {
+      "malignant_patterns": ["hypovascular mets", "capsular retraction with treated lesions"],
+      "incidental": ["simple cyst", "hemangioma (peripheral nodular enhancement with centripetal fill-in)"],
+      "mimics": ["confluent fibrosis", "FNH-like lesions"],
+      "post_treatment_markers": ["sharp SBRT field boundary", "ablation cavity with rim"],
+      "targets_template": ["Hepatic segment {segment} lesion {size_mm} mm, {enhancement_pattern}"],
+      "nontargets_template": ["Sub-centimeter hypodensity, too small to characterize"]
+    },
+    "spleen": {
+      "incidental": ["tiny cyst", "accessory spleen"],
+      "mimics": ["benign solid lesions with portal phase hypoenhancement"]
+    },
+    "pancreas": {
+      "malignant_patterns": ["hypoenhancing mass with ductal dilation", "vascular encasement"],
+      "incidental": ["simple cyst (<2 cm)", "side-branch IPMN (no worrisome features)", "serous cystadenoma"],
+      "mimics": ["mass-forming chronic pancreatitis", "autoimmune/groove pancreatitis"],
+      "post_treatment_markers": ["atrophy in radiation field", "post-op anastomotic change", "peripancreatic stranding"]
+    },
+    "adrenals": {
+      "incidental": ["lipid-rich adenoma"],
+      "mimics": []
+    },
+    "kidneys": {
+      "malignant_patterns": ["enhancing solid mass", "renal vein/IVC tumor thrombus"],
+      "incidental": ["Bosniak I cyst", "angiomyolipoma (macroscopic fat)"],
+      "post_treatment_markers": ["ablation zone (non-enhancing) with peripheral halo; contraction over time"]
+    },
+    "bladder": {
+      "incidental": ["under-distension wall thickening"],
+      "mimics": []
+    },
+    "gi": {
+      "stomach": {
+        "incidental": ["physiologic under-distension thickening", "small benign polyp"],
+        "mimics": ["prominent rugal folds"]
+      },
+      "colon": {
+        "incidental": ["diverticulosis", "small benign polyp"],
+        "mimics": ["under-distension symmetric thickening"]
+      },
+      "small_bowel": {
+        "incidental": ["nonspecific fluid levels"],
+        "mimics": []
+      }
+    },
+    "mesentery_peritoneum": {
+      "malignant_patterns": ["omental caking", "peritoneal nodularity", "ascites"],
+      "mimics": ["post-op inflammation/collections", "infectious peritonitis"]
+    },
+    "lymph_nodes": {
+      "patterns": ["regional spread by primary", "porta hepatis/periportal nodes in GI cancers"],
+      "mimics": ["reactive nodes in infection/inflammation"]
+    },
+    "bones": {
+      "malignant_patterns": ["sclerotic mets (prostate)", "lytic lesions (RCC)"],
+      "incidental": ["bone islands", "degenerative changes"]
+    },
+    "reproductive": {
+      "ovary": {
+        "incidental": ["simple physiologic cyst"],
+        "post_treatment_markers": ["pelvic peritoneal thickening/fibrosis after RT", "brachytherapy seeds"]
+      },
+      "prostate": {
+        "incidental": ["BPH", "calcifications"],
+        "post_treatment_markers": ["post-prostatectomy bed change", "brachytherapy seeds"]
+      }
+    }
+  },
+  "complexity_levels": {
+    "C0": {
+      "lesion_burden": { "targets": [0, 0], "nontargets": [0, 1] },
+      "incidental_total": [0, 1],
+      "enable_post_treatment": false,
+      "artifact_max_severity": "none",
+      "add_equivocal_language": false
+    },
+    "C1": {
+      "lesion_burden": { "targets": [0, 1], "nontargets": [0, 1] },
+      "incidental_total": [0, 2],
+      "enable_post_treatment": false,
+      "artifact_max_severity": "motion_mild",
+      "add_equivocal_language": true
+    },
+    "C2": {
+      "lesion_burden": { "targets": [2, 4], "nontargets": [1, 3] },
+      "incidental_total": [1, 3],
+      "enable_post_treatment": true,
+      "artifact_max_severity": "beam_hardening",
+      "add_equivocal_language": true
+    },
+    "C3": {
+      "lesion_burden": { "targets": [3, 5], "nontargets": [2, 5] },
+      "incidental_total": [2, 5],
+      "enable_post_treatment": true,
+      "artifact_max_severity": "metal_streak",
+      "add_equivocal_language": true
+    },
+    "C4": {
+      "lesion_burden": { "targets": [4, 6], "nontargets": [3, 6] },
+      "incidental_total": [3, 6],
+      "enable_post_treatment": true,
+      "artifact_max_severity": "motion_moderate",
+      "add_equivocal_language": true,
+      "increase_mimics": true
+    },
+    "C5": {
+      "lesion_burden": { "targets": [5, 8], "nontargets": [4, 8] },
+      "incidental_total": [4, 8],
+      "enable_post_treatment": true,
+      "artifact_max_severity": "motion_moderate",
+      "add_equivocal_language": true,
+      "increase_mimics": true,
+      "force_limitations_statement": true
+    }
+  },
+  "impression_rules": {
+    "max_bullets": 3,
+    "prioritize": [
+      "new_measurable_metastasis",
+      "recist_pd_vs_nadir",
+      "short_axis_node_crossing_threshold",
+      "target_growth_ge20pct_from_nadir",
+      "unequivocal_non_target_progression"
+    ],
+    "always_include": [
+      "explicit_uncertainty_if_indeterminate",
+      "artifact_or_limitation_if_present",
+      "actionable_recommendation_if_indeterminate"
+    ],
+    "recommendation_templates": [
+      "Recommend {modality} in {interval} to reassess {target}.",
+      "Consider {problem_solving_modality} for further characterization of {finding}."
+    ]
+  }
+}

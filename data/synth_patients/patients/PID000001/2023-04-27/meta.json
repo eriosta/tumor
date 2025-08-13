@@ -1,0 +1,66 @@
+{
+  "patient_id": "PID000001",
+  "timepoint": 1,
+  "study_date": "2023-04-27",
+  "recist": {
+    "baseline_sld_mm": 48,
+    "current_sld_mm": 32,
+    "nadir_sld_mm": 32,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 3,
+    "level_name": "C3",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "kidneys",
+        "text": "angiomyolipoma (macroscopic fat)"
+      },
+      {
+        "organ": "liver",
+        "text": "hemangioma (peripheral nodular enhancement with centripetal fill-in)"
+      },
+      {
+        "organ": "pancreas",
+        "text": "simple cyst (<2 cm)"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "lung",
+        "text": "no pulmonary abnormality"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      }
+    ],
+    "post_treatment": [
+      "Postsurgical change: postoperative fluid collection"
+    ]
+  }
+}

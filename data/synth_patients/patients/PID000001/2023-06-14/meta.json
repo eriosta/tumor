@@ -1,0 +1,77 @@
+{
+  "patient_id": "PID000001",
+  "timepoint": 2,
+  "study_date": "2023-06-14",
+  "recist": {
+    "baseline_sld_mm": 48,
+    "current_sld_mm": 27,
+    "nadir_sld_mm": 27,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 3,
+    "level_name": "C3",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": -3.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "kidneys",
+        "text": "angiomyolipoma (macroscopic fat)"
+      },
+      {
+        "organ": "pancreas",
+        "text": "side-branch IPMN (no worrisome features)"
+      },
+      {
+        "organ": "lung",
+        "text": "subpleural reticulation"
+      },
+      {
+        "organ": "pancreas",
+        "text": "side-branch IPMN (no worrisome features)"
+      },
+      {
+        "organ": "bladder",
+        "text": "under-distension wall thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "lung",
+        "text": "no suspicious pulmonary nodule"
+      }
+    ],
+    "post_treatment": []
+  }
+}
