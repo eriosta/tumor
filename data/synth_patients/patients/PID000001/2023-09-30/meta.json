@@ -1,0 +1,96 @@
+{
+  "patient_id": "PID000001",
+  "timepoint": 2,
+  "study_date": "2023-09-30",
+  "recist": {
+    "baseline_sld_mm": 96,
+    "current_sld_mm": 104,
+    "nadir_sld_mm": 61,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 19.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "pancreas",
+        "text": "serous cystadenoma"
+      },
+      {
+        "organ": "pleura",
+        "text": "trace effusion"
+      },
+      {
+        "organ": "liver",
+        "text": "simple cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:kidney",
+        "kind": "primary",
+        "organ": "kidney",
+        "location": "left kidney, interpolar",
+        "rule": "longest",
+        "baseline_mm": 48,
+        "follow_mm": 51,
+        "size_mm_current": 51,
+        "margin": "spiculated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": 27,
+        "follow_mm": 30,
+        "size_mm_current": 30,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": 21,
+        "follow_mm": 23,
+        "size_mm_current": 23,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

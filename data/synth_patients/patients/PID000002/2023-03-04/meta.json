@@ -1,0 +1,120 @@
+{
+  "patient_id": "PID000002",
+  "timepoint": 1,
+  "study_date": "2023-03-04",
+  "recist": {
+    "baseline_sld_mm": 81,
+    "current_sld_mm": 88,
+    "nadir_sld_mm": 81,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 3,
+    "level_name": "C3",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": 5.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "mediastinum",
+        "text": "small thymic remnant"
+      },
+      {
+        "organ": "adrenals",
+        "text": "lipid-rich adenoma"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "prominent but subthreshold lymph nodes"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      },
+      {
+        "organ": "lung",
+        "text": "lungs are normal"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:pancreas",
+        "kind": "primary",
+        "organ": "pancreas",
+        "location": "neck of the pancreas",
+        "rule": "longest",
+        "baseline_mm": 34,
+        "follow_mm": 38,
+        "size_mm_current": 38,
+        "margin": "lobulated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": 18,
+        "follow_mm": 20,
+        "size_mm_current": 20,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:lung",
+        "kind": "met",
+        "organ": "lung",
+        "rule": "longest",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 6,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": 29,
+        "follow_mm": 30,
+        "size_mm_current": 30,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

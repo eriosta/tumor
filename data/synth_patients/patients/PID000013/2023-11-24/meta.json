@@ -1,0 +1,97 @@
+{
+  "patient_id": "PID000013",
+  "timepoint": 2,
+  "study_date": "2023-11-24",
+  "recist": {
+    "baseline_sld_mm": 67,
+    "current_sld_mm": 70,
+    "nadir_sld_mm": 46,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": 17.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "kidneys",
+        "text": "Bosniak I cyst"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "prominent but subthreshold lymph nodes"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "lung",
+        "text": "lungs are normal"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:stomach",
+        "kind": "primary",
+        "organ": "stomach",
+        "location": "antrum of the stomach",
+        "rule": "longest",
+        "baseline_mm": 34,
+        "follow_mm": 35,
+        "size_mm_current": 35,
+        "margin": "lobulated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:internal iliac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "internal iliac",
+        "rule": "short_axis",
+        "baseline_mm": 21,
+        "follow_mm": 23,
+        "size_mm_current": 23,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:bone",
+        "kind": "met",
+        "organ": "bone",
+        "rule": "longest",
+        "baseline_mm": 12,
+        "follow_mm": 12,
+        "size_mm_current": 12,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

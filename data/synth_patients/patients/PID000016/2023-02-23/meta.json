@@ -1,0 +1,81 @@
+{
+  "patient_id": "PID000016",
+  "timepoint": 0,
+  "study_date": "2023-02-23",
+  "recist": {
+    "baseline_sld_mm": 89,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "mediastinum",
+        "text": "small thymic remnant"
+      },
+      {
+        "organ": "kidneys",
+        "text": "Bosniak I cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 3 of the liver",
+        "rule": "longest",
+        "baseline_mm": 65,
+        "follow_mm": null,
+        "size_mm_current": 65,
+        "margin": "lobulated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": 24,
+        "follow_mm": null,
+        "size_mm_current": 24,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

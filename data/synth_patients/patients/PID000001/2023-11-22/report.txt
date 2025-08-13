@@ -1,0 +1,32 @@
+FINDINGS:
+Comparison: 2023-09-30.
+Pulmonary parenchyma: Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening. no pleural nodularity.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass. no pancreatic mass.
+Adrenal glands: Adrenal glands are normal without nodules. adrenal glands normal.
+Kidneys: 61 mm spiculated enhancing renal mass in the left kidney, interpolar. No hydronephrosis. No enhancing renal mass. Bosniak I cyst. no renal mass. Postsurgical change: resection margin changes.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: 27 mm lesion in the peritoneum, suspicious for metastasis. No ascites. No omental caking. no peritoneal nodularity.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age. calcifications.
+Lymph nodes: Enlarged mesenteric lymph node, short axis 3.6 cm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture. bone islands.
+
+IMPRESSION:
+- Kidney primary malignancy at left kidney, interpolar measuring approximately 61 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: peritoneum.
+- RECIST 1.1 Summary:
+- Target lesions (n=3; ≤2 per organ rule applied).
+  • T1: Primary — 48→61 mm (longest diameter).
+  • T2: Metastasis — 21→27 mm (longest diameter).
+  • T3: Lymph node — 27→36 mm (short axis).
+- SLD baseline: 96 mm.
+- SLD current: 124 mm (+29.2% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: PD.

@@ -1,0 +1,118 @@
+{
+  "patient_id": "PID000017",
+  "timepoint": 2,
+  "study_date": "2024-01-22",
+  "recist": {
+    "baseline_sld_mm": 82,
+    "current_sld_mm": 107,
+    "nadir_sld_mm": 71,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "partial_volume",
+      "impact": 1,
+      "report_phrase": "Partial volume averaging may obscure small foci.",
+      "severity_rank": 1
+    }
+  },
+  "staging_relevance": 28.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "reproductive.prostate",
+        "text": "calcifications"
+      },
+      {
+        "organ": "lung",
+        "text": "dependent atelectasis"
+      },
+      {
+        "organ": "spleen",
+        "text": "tiny cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: fat stranding"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 4 of the liver",
+        "rule": "longest",
+        "baseline_mm": 56,
+        "follow_mm": 74,
+        "size_mm_current": 74,
+        "margin": "spiculated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:right hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "right hilar",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 14,
+        "necrosis": true,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:external iliac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "external iliac",
+        "rule": "short_axis",
+        "baseline_mm": 26,
+        "follow_mm": 33,
+        "size_mm_current": 33,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

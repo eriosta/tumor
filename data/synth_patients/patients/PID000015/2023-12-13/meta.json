@@ -1,0 +1,99 @@
+{
+  "patient_id": "PID000015",
+  "timepoint": 2,
+  "study_date": "2023-12-13",
+  "recist": {
+    "baseline_sld_mm": 117,
+    "current_sld_mm": 163,
+    "nadir_sld_mm": 117,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 29.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "aorta_great_vessels",
+        "text": "mild aortic atherosclerosis"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "lung",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:lung",
+        "kind": "primary",
+        "organ": "lung",
+        "location": "right middle lobe",
+        "rule": "longest",
+        "baseline_mm": 74,
+        "follow_mm": 104,
+        "size_mm_current": 104,
+        "margin": "smooth",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 18,
+        "follow_mm": 24,
+        "size_mm_current": 24,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "met:adrenal",
+        "kind": "met",
+        "organ": "adrenal",
+        "rule": "longest",
+        "baseline_mm": 25,
+        "follow_mm": 35,
+        "size_mm_current": 35,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

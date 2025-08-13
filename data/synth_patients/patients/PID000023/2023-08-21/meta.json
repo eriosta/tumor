@@ -1,0 +1,68 @@
+{
+  "patient_id": "PID000023",
+  "timepoint": 2,
+  "study_date": "2023-08-21",
+  "recist": {
+    "baseline_sld_mm": 40,
+    "current_sld_mm": 54,
+    "nadir_sld_mm": 36,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 23.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "spleen",
+        "text": "accessory spleen"
+      },
+      {
+        "organ": "pancreas",
+        "text": "side-branch IPMN (no worrisome features)"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 40,
+        "follow_mm": 54,
+        "size_mm_current": 54,
+        "margin": "spiculated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

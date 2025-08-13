@@ -1,0 +1,79 @@
+{
+  "patient_id": "PID000016",
+  "timepoint": 4,
+  "study_date": "2023-10-11",
+  "recist": {
+    "baseline_sld_mm": 89,
+    "current_sld_mm": 87,
+    "nadir_sld_mm": 53,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 19.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "kidneys",
+        "text": "angiomyolipoma (macroscopic fat)"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "lung",
+        "text": "no pulmonary abnormality"
+      },
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      }
+    ],
+    "post_treatment": [
+      "Post-ablation/embolization change: non-enhancing ablation zone with peripheral halo; contraction over time"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 3 of the liver",
+        "rule": "longest",
+        "baseline_mm": 65,
+        "follow_mm": 65,
+        "size_mm_current": 65,
+        "margin": "lobulated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": 24,
+        "follow_mm": 22,
+        "size_mm_current": 22,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

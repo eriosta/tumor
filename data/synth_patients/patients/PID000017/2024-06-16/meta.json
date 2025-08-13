@@ -1,0 +1,112 @@
+{
+  "patient_id": "PID000017",
+  "timepoint": 5,
+  "study_date": "2024-06-16",
+  "recist": {
+    "baseline_sld_mm": 82,
+    "current_sld_mm": 105,
+    "nadir_sld_mm": 71,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": 28.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "aorta_great_vessels",
+        "text": "tortuosity"
+      },
+      {
+        "organ": "gi.stomach",
+        "text": "small benign polyp"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "no aneurysm or dissection"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 4 of the liver",
+        "rule": "longest",
+        "baseline_mm": 56,
+        "follow_mm": 73,
+        "size_mm_current": 73,
+        "margin": "spiculated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:right hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "right hilar",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 14,
+        "necrosis": true,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:external iliac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "external iliac",
+        "rule": "short_axis",
+        "baseline_mm": 26,
+        "follow_mm": 32,
+        "size_mm_current": 32,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

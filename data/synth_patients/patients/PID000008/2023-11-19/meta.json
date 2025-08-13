@@ -1,0 +1,99 @@
+{
+  "patient_id": "PID000008",
+  "timepoint": 3,
+  "study_date": "2023-11-19",
+  "recist": {
+    "baseline_sld_mm": 65,
+    "current_sld_mm": 73,
+    "nadir_sld_mm": 39,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "partial_volume",
+      "impact": 1,
+      "report_phrase": "Partial volume averaging may obscure small foci.",
+      "severity_rank": 1
+    }
+  },
+  "staging_relevance": 18.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "gi.colon",
+        "text": "diverticulosis"
+      },
+      {
+        "organ": "reproductive.prostate",
+        "text": "calcifications"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "lung",
+        "text": "no pleural effusion"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:colon",
+        "kind": "primary",
+        "organ": "colon",
+        "location": "transverse colon",
+        "rule": "longest",
+        "baseline_mm": 27,
+        "follow_mm": 30,
+        "size_mm_current": 30,
+        "margin": "lobulated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:retroperitoneal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "retroperitoneal",
+        "rule": "short_axis",
+        "baseline_mm": 16,
+        "follow_mm": 19,
+        "size_mm_current": 19,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:inguinal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "inguinal",
+        "rule": "short_axis",
+        "baseline_mm": 22,
+        "follow_mm": 24,
+        "size_mm_current": 24,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

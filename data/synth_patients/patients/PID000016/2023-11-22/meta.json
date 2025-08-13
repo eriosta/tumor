@@ -1,0 +1,81 @@
+{
+  "patient_id": "PID000016",
+  "timepoint": 5,
+  "study_date": "2023-11-22",
+  "recist": {
+    "baseline_sld_mm": 89,
+    "current_sld_mm": 86,
+    "nadir_sld_mm": 53,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 19.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "dependent atelectasis"
+      },
+      {
+        "organ": "kidneys",
+        "text": "angiomyolipoma (macroscopic fat)"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      },
+      {
+        "organ": "lung",
+        "text": "lungs are normal"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 3 of the liver",
+        "rule": "longest",
+        "baseline_mm": 65,
+        "follow_mm": 62,
+        "size_mm_current": 62,
+        "margin": "lobulated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": 24,
+        "follow_mm": 24,
+        "size_mm_current": 24,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

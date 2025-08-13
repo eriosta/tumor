@@ -1,0 +1,103 @@
+{
+  "patient_id": "PID000024",
+  "timepoint": 2,
+  "study_date": "2023-09-15",
+  "recist": {
+    "baseline_sld_mm": 102,
+    "current_sld_mm": 101,
+    "nadir_sld_mm": 62,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "partial_volume",
+      "impact": 1,
+      "report_phrase": "Partial volume averaging may obscure small foci.",
+      "severity_rank": 1
+    }
+  },
+  "staging_relevance": 18.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "spleen",
+        "text": "tiny cyst"
+      },
+      {
+        "organ": "pleura",
+        "text": "pleural calcifications"
+      },
+      {
+        "organ": "reproductive.prostate",
+        "text": "BPH"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      },
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:pancreas",
+        "kind": "primary",
+        "organ": "pancreas",
+        "location": "tail of the pancreas",
+        "rule": "longest",
+        "baseline_mm": 79,
+        "follow_mm": 78,
+        "size_mm_current": 78,
+        "margin": "spiculated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 12,
+        "necrosis": false,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:celiac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "celiac",
+        "rule": "short_axis",
+        "baseline_mm": 23,
+        "follow_mm": 23,
+        "size_mm_current": 23,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

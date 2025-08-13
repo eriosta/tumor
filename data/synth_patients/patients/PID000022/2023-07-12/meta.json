@@ -1,0 +1,97 @@
+{
+  "patient_id": "PID000022",
+  "timepoint": 1,
+  "study_date": "2023-07-12",
+  "recist": {
+    "baseline_sld_mm": 78,
+    "current_sld_mm": 69,
+    "nadir_sld_mm": 69,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": 5.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "mild bronchiectasis"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      }
+    ],
+    "post_treatment": [
+      "Postsurgical change: resection margin changes"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:lung",
+        "kind": "primary",
+        "organ": "lung",
+        "location": "left middle lobe",
+        "rule": "longest",
+        "baseline_mm": 61,
+        "follow_mm": 53,
+        "size_mm_current": 53,
+        "margin": "spiculated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:right hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "right hilar",
+        "rule": "short_axis",
+        "baseline_mm": 17,
+        "follow_mm": 16,
+        "size_mm_current": 16,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 14,
+        "necrosis": false,
+        "suspicious": true,
+        "target": false
+      }
+    ]
+  }
+}

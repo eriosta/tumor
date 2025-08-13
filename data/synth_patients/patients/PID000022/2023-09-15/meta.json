@@ -1,0 +1,96 @@
+{
+  "patient_id": "PID000022",
+  "timepoint": 2,
+  "study_date": "2023-09-15",
+  "recist": {
+    "baseline_sld_mm": 78,
+    "current_sld_mm": 84,
+    "nadir_sld_mm": 69,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 18.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "calcified granuloma"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "prominent but subthreshold lymph nodes"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "aorta_great_vessels",
+        "text": "no aneurysm or dissection"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      }
+    ],
+    "post_treatment": [
+      "Post-ablation/embolization change: non-enhancing ablation cavity with peripheral rim; SBRT field with altered enhancement"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:lung",
+        "kind": "primary",
+        "organ": "lung",
+        "location": "left middle lobe",
+        "rule": "longest",
+        "baseline_mm": 61,
+        "follow_mm": 66,
+        "size_mm_current": 66,
+        "margin": "spiculated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:right hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "right hilar",
+        "rule": "short_axis",
+        "baseline_mm": 17,
+        "follow_mm": 18,
+        "size_mm_current": 18,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 14,
+        "necrosis": false,
+        "suspicious": true,
+        "target": false
+      }
+    ]
+  }
+}

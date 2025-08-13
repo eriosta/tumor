@@ -1,0 +1,33 @@
+FINDINGS:
+Comparison: 2024-04-26.
+Pulmonary parenchyma: Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Enlarged paratracheal lymph node, short axis 34 mm. Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening. no pleural nodularity.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: 16 mm lesion in the liver, suspicious for metastasis. No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass. no pancreatic mass.
+Adrenal glands: 16 mm lesion in the adrenal, suspicious for metastasis. Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: 48 mm lobulated mass involving the sigmoid colon with focal wall thickening (isoenhancing). No obstructive process. No focal bowel wall mass identified. stomach is normal.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable. no focal bladder wall thickening.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture. no destructive osseous lesion.
+
+IMPRESSION:
+- Colon primary malignancy at sigmoid colon measuring approximately 48 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: adrenal, liver.
+- RECIST 1.1 Summary:
+- Target lesions (n=4; ≤2 per organ rule applied).
+  • T1: Primary — 38→48 mm (longest diameter).
+  • T2: Metastasis — 12→16 mm (longest diameter).
+  • T3: Metastasis — 12→16 mm (longest diameter).
+  • T4: Lymph node — 26→34 mm (short axis).
+- SLD baseline: 88 mm.
+- SLD current: 114 mm (+29.5% change).
+- New lesions: present (unequivocal).
+- - RECIST 1.1 overall response category: PD.

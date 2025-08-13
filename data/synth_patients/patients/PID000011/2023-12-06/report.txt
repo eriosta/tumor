@@ -1,0 +1,28 @@
+FINDINGS:
+Lungs: Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Cardiomediastinal contours within normal limits. prominent but subthreshold lymph nodes. no mediastinal mass.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening. pleural calcifications.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: 37 mm spiculated hepatic mass in segment 2 of the liver (hyperenhancing). No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass. pancreas is normal.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified. physiologic under-distension thickening. no colonic mass.
+Mesentery/Omentum: No ascites. No omental caking. no peritoneal nodularity.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged mesenteric lymph node, short axis 8 mm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+
+IMPRESSION:
+- Liver primary malignancy at segment 2 of the liver measuring approximately 37 mm.
+- Findings concerning for nodal involvement.
+- No definite distant metastases identified.
+- RECIST 1.1 Summary:
+- Target lesions (n=1; ≤2 per organ rule applied).
+  • T1: Primary — 37 mm (longest diameter) at baseline.
+- SLD baseline: 37 mm.
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: Baseline (no category).

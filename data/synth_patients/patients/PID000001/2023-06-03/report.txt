@@ -1,0 +1,30 @@
+FINDINGS:
+Lungs: No focal consolidation or suspicious pulmonary nodules. No pneumothorax. <6 mm well-circumscribed nodule.
+Mediastinum: Cardiomediastinal contours within normal limits. no mediastinal mass.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening. no pleural nodularity.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation. no hepatic mass.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules. lipid-rich adenoma.
+Kidneys: 48 mm spiculated enhancing renal mass in the left kidney, interpolar. No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified. stomach is normal.
+Mesentery/Omentum: 21 mm lesion in the peritoneum, suspicious for metastasis. No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age. ovaries are normal / no adnexal abnormality.
+Lymph nodes: Enlarged mesenteric lymph node, short axis 2.7 cm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+
+IMPRESSION:
+- Kidney primary malignancy at left kidney, interpolar measuring approximately 48 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: peritoneum.
+- RECIST 1.1 Summary:
+- Target lesions (n=3; ≤2 per organ rule applied).
+  • T1: Primary — 48 mm (longest diameter) at baseline.
+  • T2: Metastasis — 21 mm (longest diameter) at baseline.
+  • T3: Lymph node — 27 mm (short axis) at baseline.
+- SLD baseline: 96 mm.
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: Baseline (no category).

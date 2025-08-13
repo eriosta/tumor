@@ -1,0 +1,122 @@
+{
+  "patient_id": "PID000003",
+  "timepoint": 0,
+  "study_date": "2023-08-19",
+  "recist": {
+    "baseline_sld_mm": 101,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "<6 mm well-circumscribed nodule"
+      },
+      {
+        "organ": "bones",
+        "text": "degenerative changes"
+      },
+      {
+        "organ": "pancreas",
+        "text": "serous cystadenoma"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      },
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 27,
+        "follow_mm": null,
+        "size_mm_current": 27,
+        "margin": "smooth",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:right hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "right hilar",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:retroperitoneal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "retroperitoneal",
+        "rule": "short_axis",
+        "baseline_mm": 19,
+        "follow_mm": null,
+        "size_mm_current": 19,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:inguinal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "inguinal",
+        "rule": "short_axis",
+        "baseline_mm": 26,
+        "follow_mm": null,
+        "size_mm_current": 26,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:liver",
+        "kind": "met",
+        "organ": "liver",
+        "rule": "longest",
+        "baseline_mm": 29,
+        "follow_mm": null,
+        "size_mm_current": 29,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

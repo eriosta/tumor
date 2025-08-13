@@ -1,0 +1,69 @@
+{
+  "patient_id": "PID000021",
+  "timepoint": 2,
+  "study_date": "2024-02-13",
+  "recist": {
+    "baseline_sld_mm": 36,
+    "current_sld_mm": 37,
+    "nadir_sld_mm": 33,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "partial_volume",
+      "impact": 1,
+      "report_phrase": "Partial volume averaging may obscure small foci.",
+      "severity_rank": 1
+    }
+  },
+  "staging_relevance": -1.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "mediastinum",
+        "text": "small thymic remnant"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 36,
+        "follow_mm": 37,
+        "size_mm_current": 37,
+        "margin": "irregular",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

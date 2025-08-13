@@ -1,0 +1,90 @@
+{
+  "patient_id": "PID000016",
+  "timepoint": 2,
+  "study_date": "2023-06-17",
+  "recist": {
+    "baseline_sld_mm": 89,
+    "current_sld_mm": 60,
+    "nadir_sld_mm": 53,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": 4.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "dependent atelectasis"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "small thymic remnant"
+      },
+      {
+        "organ": "pancreas",
+        "text": "simple cyst (<2 cm)"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      },
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 3 of the liver",
+        "rule": "longest",
+        "baseline_mm": 65,
+        "follow_mm": 43,
+        "size_mm_current": 43,
+        "margin": "lobulated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": 24,
+        "follow_mm": 17,
+        "size_mm_current": 17,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

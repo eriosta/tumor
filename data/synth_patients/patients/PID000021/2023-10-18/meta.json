@@ -1,0 +1,73 @@
+{
+  "patient_id": "PID000021",
+  "timepoint": 0,
+  "study_date": "2023-10-18",
+  "recist": {
+    "baseline_sld_mm": 36,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": -3.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "liver",
+        "text": "hemangioma (peripheral nodular enhancement with centripetal fill-in)"
+      },
+      {
+        "organ": "reproductive.ovary",
+        "text": "simple physiologic cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "lung",
+        "text": "no suspicious pulmonary nodule"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 36,
+        "follow_mm": null,
+        "size_mm_current": 36,
+        "margin": "irregular",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

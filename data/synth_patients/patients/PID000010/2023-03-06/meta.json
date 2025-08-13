@@ -1,0 +1,123 @@
+{
+  "patient_id": "PID000010",
+  "timepoint": 1,
+  "study_date": "2023-03-06",
+  "recist": {
+    "baseline_sld_mm": 103,
+    "current_sld_mm": 112,
+    "nadir_sld_mm": 103,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "partial_volume",
+      "impact": 1,
+      "report_phrase": "Partial volume averaging may obscure small foci.",
+      "severity_rank": 1
+    }
+  },
+  "staging_relevance": 5.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "pleura",
+        "text": "trace effusion"
+      },
+      {
+        "organ": "gi.stomach",
+        "text": "small benign polyp"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: ground-glass opacities within field"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:pancreas",
+        "kind": "primary",
+        "organ": "pancreas",
+        "location": "body of the pancreas",
+        "rule": "longest",
+        "baseline_mm": 50,
+        "follow_mm": 55,
+        "size_mm_current": 55,
+        "margin": "smooth",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:celiac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "celiac",
+        "rule": "short_axis",
+        "baseline_mm": 21,
+        "follow_mm": 23,
+        "size_mm_current": 23,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:liver",
+        "kind": "met",
+        "organ": "liver",
+        "rule": "longest",
+        "baseline_mm": 13,
+        "follow_mm": 14,
+        "size_mm_current": 14,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": 19,
+        "follow_mm": 20,
+        "size_mm_current": 20,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "patient_id": "PID000023",
+  "timepoint": 0,
+  "study_date": "2023-05-02",
+  "recist": {
+    "baseline_sld_mm": 40,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "mediastinum",
+        "text": "small thymic remnant"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      },
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 40,
+        "follow_mm": null,
+        "size_mm_current": 40,
+        "margin": "spiculated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

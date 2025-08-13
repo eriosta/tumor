@@ -1,0 +1,33 @@
+FINDINGS:
+Respiratory motion artifact partially limits assessment.
+Pulmonary parenchyma: No focal consolidation or suspicious pulmonary nodules. No pneumothorax.
+Mediastinum: Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening. no pleural nodularity.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation. no hepatic mass.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass. pancreas is normal.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: 34 mm lobulated gastric mass at the antrum of the stomach (hypoenhancing). No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking. no peritoneal nodularity.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable. under-distension wall thickening.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged internal iliac lymph node, short axis 21 mm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: Sclerotic osseous metastasis—nonmeasurable by RECIST (blastic). No aggressive osseous lesion. No acute fracture.
+
+IMPRESSION:
+- Stomach primary neoplasm (indeterminate) at antrum of the stomach measuring approximately 34 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: bone.
+- RECIST 1.1 Summary:
+- Target lesions (n=3; ≤2 per organ rule applied).
+  • T1: Primary — 34 mm (longest diameter) at baseline.
+  • T2: Metastasis — 12 mm (longest diameter) at baseline.
+  • T3: Lymph node — 21 mm (short axis) at baseline.
+- SLD baseline: 67 mm.
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: Baseline (no category).
+
+Comment: Some features are less likely; short-interval follow-up or problem-solving imaging may be considered.

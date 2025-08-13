@@ -1,0 +1,103 @@
+{
+  "patient_id": "PID000009",
+  "timepoint": 2,
+  "study_date": "2024-03-14",
+  "recist": {
+    "baseline_sld_mm": 64,
+    "current_sld_mm": 39,
+    "nadir_sld_mm": 39,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "partial_volume",
+      "impact": 1,
+      "report_phrase": "Partial volume averaging may obscure small foci.",
+      "severity_rank": 1
+    }
+  },
+  "staging_relevance": 5.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "pleura",
+        "text": "trace effusion"
+      },
+      {
+        "organ": "pleura",
+        "text": "trace effusion"
+      },
+      {
+        "organ": "spleen",
+        "text": "accessory spleen"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "no aneurysm or dissection"
+      },
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:kidney",
+        "kind": "primary",
+        "organ": "kidney",
+        "location": "left kidney, interpolar",
+        "rule": "longest",
+        "baseline_mm": 37,
+        "follow_mm": 23,
+        "size_mm_current": 23,
+        "margin": "lobulated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 13,
+        "necrosis": false,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": 27,
+        "follow_mm": 16,
+        "size_mm_current": 16,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

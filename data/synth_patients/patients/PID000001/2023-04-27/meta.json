@@ -4,63 +4,85 @@
   "study_date": "2023-04-27",
   "recist": {
     "baseline_sld_mm": 48,
-    "current_sld_mm": 32,
-    "nadir_sld_mm": 32,
+    "current_sld_mm": 26,
+    "nadir_sld_mm": 26,
     "overall_response": "PR"
   },
   "complexity_profile": {
     "level": 3,
     "level_name": "C3",
-    "artifact": null
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
   },
-  "staging_relevance": 0.0,
+  "staging_relevance": -3.0,
   "extras": {
     "incidentals": [
       {
-        "organ": "kidneys",
-        "text": "angiomyolipoma (macroscopic fat)"
+        "organ": "pancreas",
+        "text": "side-branch IPMN (no worrisome features)"
+      },
+      {
+        "organ": "pancreas",
+        "text": "serous cystadenoma"
       },
       {
         "organ": "liver",
         "text": "hemangioma (peripheral nodular enhancement with centripetal fill-in)"
-      },
-      {
-        "organ": "pancreas",
-        "text": "simple cyst (<2 cm)"
       }
     ],
     "negatives": [
       {
-        "organ": "kidneys",
-        "text": "kidneys are normal"
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
       },
       {
-        "organ": "adrenals",
-        "text": "adrenal glands normal"
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      },
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
       },
       {
         "organ": "liver",
         "text": "no hepatic mass"
       },
       {
-        "organ": "lung",
-        "text": "no pulmonary abnormality"
+        "organ": "kidneys",
+        "text": "no renal mass"
       },
       {
-        "organ": "mediastinum",
-        "text": "no pathologic mediastinal lymphadenopathy"
-      },
-      {
-        "organ": "pancreas",
-        "text": "pancreas is normal"
-      },
-      {
-        "organ": "mesentery_peritoneum",
-        "text": "no peritoneal nodularity"
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
       }
     ],
     "post_treatment": [
-      "Postsurgical change: postoperative fluid collection"
+      "Radiation change: consolidation conforming to beam path",
+      "Radiation change: fat stranding"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 48,
+        "follow_mm": 26,
+        "size_mm_current": 26,
+        "margin": "spiculated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      }
     ]
   }
 }

@@ -1,0 +1,105 @@
+{
+  "patient_id": "PID000019",
+  "timepoint": 3,
+  "study_date": "2024-05-28",
+  "recist": {
+    "baseline_sld_mm": 118,
+    "current_sld_mm": 111,
+    "nadir_sld_mm": 77,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 19.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "pancreas",
+        "text": "side-branch IPMN (no worrisome features)"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "lung",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: consolidation conforming to beam path"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:kidney",
+        "kind": "primary",
+        "organ": "kidney",
+        "location": "left kidney, lower pole",
+        "rule": "longest",
+        "baseline_mm": 70,
+        "follow_mm": 65,
+        "size_mm_current": 65,
+        "margin": "spiculated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": 29,
+        "follow_mm": 28,
+        "size_mm_current": 28,
+        "necrosis": true,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": 19,
+        "follow_mm": 18,
+        "size_mm_current": 18,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:internal iliac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "internal iliac",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 12,
+        "necrosis": true,
+        "suspicious": true,
+        "target": false
+      }
+    ]
+  }
+}

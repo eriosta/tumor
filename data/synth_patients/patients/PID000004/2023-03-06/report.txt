@@ -1,0 +1,33 @@
+FINDINGS:
+Lungs: No focal consolidation or suspicious pulmonary nodules. No pneumothorax.
+Mediastinum: Enlarged paratracheal lymph node, short axis 10 mm with central necrosis. Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: 54 mm irregular hepatic mass in segment 2 of the liver (isoenhancing). No focal hepatic lesions. Normal attenuation. liver is normal.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass. no pancreatic mass.
+Adrenal glands: Adrenal glands are normal without nodules. adrenal glands normal.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified. nonspecific fluid levels.
+Mesentery/Omentum: 1.0 cm lesion in the peritoneum, suspicious for metastasis. No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable. urinary bladder normal.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged internal iliac lymph node, short axis 2.0 cm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: 2.5 cm lesion in the bone, suspicious for metastasis. No aggressive osseous lesion. No acute fracture. bone islands. no destructive osseous lesion.
+
+IMPRESSION:
+- Liver primary neoplasm (indeterminate) at segment 2 of the liver measuring approximately 54 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: bone, peritoneum.
+- RECIST 1.1 Summary:
+- Target lesions (n=4; ≤2 per organ rule applied).
+  • T1: Primary — 54 mm (longest diameter) at baseline.
+  • T2: Metastasis — 25 mm (longest diameter) at baseline.
+  • T3: Metastasis — 10 mm (longest diameter) at baseline.
+  • T4: Lymph node — 20 mm (short axis) at baseline.
+- SLD baseline: 109 mm.
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: Baseline (no category).
+
+Comment: Some features are virtually diagnostic of; short-interval follow-up or problem-solving imaging may be considered.

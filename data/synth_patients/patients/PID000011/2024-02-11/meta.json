@@ -1,0 +1,82 @@
+{
+  "patient_id": "PID000011",
+  "timepoint": 1,
+  "study_date": "2024-02-11",
+  "recist": {
+    "baseline_sld_mm": 37,
+    "current_sld_mm": 23,
+    "nadir_sld_mm": 23,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": -1.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "gi.stomach",
+        "text": "small benign polyp"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 2 of the liver",
+        "rule": "longest",
+        "baseline_mm": 37,
+        "follow_mm": 23,
+        "size_mm_current": 23,
+        "margin": "spiculated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 8,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      }
+    ]
+  }
+}

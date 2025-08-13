@@ -1,51 +1,31 @@
-EXAM: CT CAP
-TECHNIQUE: Contrast-enhanced CT CAP with portal venous phase abdomen/pelvis; chest imaged in a single post-contrast phase.
-HISTORY: Staging/restaging of solid malignancy.
-
 FINDINGS:
-Pulmonary parenchyma: Clear lungs without focal mass. No suspicious nodules identified.
-Mediastinum: Cardiomediastinal contours within normal limits.
+Beam-hardening streak artifact from dense structures limits evaluation.
+Comparison: 2023-06-14.
+Lungs: No focal consolidation or suspicious pulmonary nodules. No pneumothorax. dependent atelectasis.
+Mediastinum: Cardiomediastinal contours within normal limits. no mediastinal mass.
 Pleura/Pleural spaces: No pleural effusion or pleural thickening.
-Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
-Liver: No focal hepatic lesions. Normal attenuation.
-Spleen: Normal in size and attenuation. No focal splenic lesion.
-Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection. aorta normal caliber.
+Liver: No focal hepatic lesions. Normal attenuation. no hepatic mass.
+Spleen: Normal in size and attenuation. No focal splenic lesion. spleen normal size.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass. serous cystadenoma.
 Adrenal glands: Adrenal glands are normal without nodules.
 Kidneys: No hydronephrosis. No enhancing renal mass.
-GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified. stomach is normal.
 Mesentery/Omentum: No ascites. No omental caking.
 Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
-Urinary bladder: Unremarkable.
-Reproductive organs: 41 mm spiculated mass within the prostate gland, peripheral zone. No adnexal mass. Uterus/prostate within expected size for age.
+Urinary bladder: Unremarkable. urinary bladder normal.
+Reproductive organs: 51 mm spiculated mass within the prostate gland, peripheral zone. No adnexal mass. Uterus/prostate within expected size for age. calcifications.
 Lymph nodes: No pathologically enlarged lymph nodes by size criteria.
-Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
-Comparison: Compared to prior 2023-06-14, interval evaluation as below.
-POST-TREATMENT / PROCEDURAL CHANGES:
-- Radiation change: wall thickening and submucosal edema in irradiated bowel
-- Postsurgical change: brachytherapy seeds
-
-INCIDENTAL / OTHER FINDINGS:
-- adrenals: lipid-rich adenoma
-- spleen: tiny cyst
-- liver: simple cyst
-
-NEGATIVE FINDINGS:
-- pleura: no pleural nodularity
-- lung: no pulmonary abnormality
-- reproductive: prostate is normal / no prostatic mass
-- aorta_great_vessels: no aneurysm or dissection
-- adrenals: no adrenal nodule
-- mediastinum: no mediastinal mass
-- bladder: urinary bladder normal
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture. no destructive osseous lesion.
 
 IMPRESSION:
-- Prostate primary malignancy at prostate gland, peripheral zone measuring approximately 41 mm.
+- Prostate primary malignancy at prostate gland, peripheral zone measuring approximately 51 mm.
 - No pathologically enlarged lymph nodes by size criteria.
 - No definite distant metastases identified.
 - RECIST 1.1 Summary:
 - Target lesions (n=1; ≤2 per organ rule applied).
-  • T1: Primary — 48→41 mm (longest diameter).
+  • T1: Primary — 48→51 mm (longest diameter).
 - SLD baseline: 48 mm.
-- SLD current: 41 mm (-14.6% change).
+- SLD current: 51 mm (+6.2% change).
 - New lesions: absent (unequivocal).
 - - RECIST 1.1 overall response category: PD.

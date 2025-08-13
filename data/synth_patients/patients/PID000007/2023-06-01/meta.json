@@ -1,0 +1,99 @@
+{
+  "patient_id": "PID000007",
+  "timepoint": 1,
+  "study_date": "2023-06-01",
+  "recist": {
+    "baseline_sld_mm": 118,
+    "current_sld_mm": 75,
+    "nadir_sld_mm": 75,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "partial_volume",
+      "impact": 1,
+      "report_phrase": "Partial volume averaging may obscure small foci.",
+      "severity_rank": 1
+    }
+  },
+  "staging_relevance": 5.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "bones",
+        "text": "bone islands"
+      },
+      {
+        "organ": "gi.stomach",
+        "text": "small benign polyp"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      },
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      }
+    ],
+    "post_treatment": [
+      "Post-ablation/embolization change: non-enhancing ablation zone with peripheral halo; contraction over time"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 7 of the liver",
+        "rule": "longest",
+        "baseline_mm": 61,
+        "follow_mm": 39,
+        "size_mm_current": 39,
+        "margin": "lobulated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 29,
+        "follow_mm": 18,
+        "size_mm_current": 18,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:bone",
+        "kind": "met",
+        "organ": "bone",
+        "rule": "longest",
+        "baseline_mm": 28,
+        "follow_mm": 18,
+        "size_mm_current": 18,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

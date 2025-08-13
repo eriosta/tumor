@@ -1,0 +1,77 @@
+{
+  "patient_id": "PID000011",
+  "timepoint": 3,
+  "study_date": "2024-06-28",
+  "recist": {
+    "baseline_sld_mm": 37,
+    "current_sld_mm": 39,
+    "nadir_sld_mm": 23,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 13.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "liver",
+        "text": "hemangioma (peripheral nodular enhancement with centripetal fill-in)"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "no aneurysm or dissection"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "lung",
+        "text": "no pulmonary abnormality"
+      },
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 2 of the liver",
+        "rule": "longest",
+        "baseline_mm": 37,
+        "follow_mm": 39,
+        "size_mm_current": 39,
+        "margin": "spiculated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 8,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      }
+    ]
+  }
+}

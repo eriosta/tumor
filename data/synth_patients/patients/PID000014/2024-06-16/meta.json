@@ -1,0 +1,85 @@
+{
+  "patient_id": "PID000014",
+  "timepoint": 3,
+  "study_date": "2024-06-16",
+  "recist": {
+    "baseline_sld_mm": 105,
+    "current_sld_mm": 132,
+    "nadir_sld_mm": 105,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 19.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "spleen",
+        "text": "tiny cyst"
+      },
+      {
+        "organ": "pancreas",
+        "text": "simple cyst (<2 cm)"
+      },
+      {
+        "organ": "gi.colon",
+        "text": "small benign polyp"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:stomach",
+        "kind": "primary",
+        "organ": "stomach",
+        "location": "antrum of the stomach",
+        "rule": "longest",
+        "baseline_mm": 79,
+        "follow_mm": 101,
+        "size_mm_current": 101,
+        "margin": "lobulated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": 26,
+        "follow_mm": 31,
+        "size_mm_current": 31,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

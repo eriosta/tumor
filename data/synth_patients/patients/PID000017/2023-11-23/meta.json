@@ -1,0 +1,110 @@
+{
+  "patient_id": "PID000017",
+  "timepoint": 1,
+  "study_date": "2023-11-23",
+  "recist": {
+    "baseline_sld_mm": 82,
+    "current_sld_mm": 71,
+    "nadir_sld_mm": 71,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "partial_volume",
+      "impact": 1,
+      "report_phrase": "Partial volume averaging may obscure small foci.",
+      "severity_rank": 1
+    }
+  },
+  "staging_relevance": 5.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "bronchial wall thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      },
+      {
+        "organ": "lung",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: fat stranding"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 4 of the liver",
+        "rule": "longest",
+        "baseline_mm": 56,
+        "follow_mm": 49,
+        "size_mm_current": 49,
+        "margin": "spiculated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:right hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "right hilar",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 14,
+        "necrosis": true,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:external iliac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "external iliac",
+        "rule": "short_axis",
+        "baseline_mm": 26,
+        "follow_mm": 22,
+        "size_mm_current": 22,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "patient_id": "PID000023",
+  "timepoint": 4,
+  "study_date": "2023-12-20",
+  "recist": {
+    "baseline_sld_mm": 40,
+    "current_sld_mm": 53,
+    "nadir_sld_mm": 36,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 23.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "liver",
+        "text": "simple cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 40,
+        "follow_mm": 53,
+        "size_mm_current": 53,
+        "margin": "spiculated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

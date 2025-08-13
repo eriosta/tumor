@@ -1,0 +1,31 @@
+FINDINGS:
+Comparison: 2023-08-08.
+Lungs: No focal consolidation or suspicious pulmonary nodules. No pneumothorax. no pulmonary abnormality.
+Mediastinum: Cardiomediastinal contours within normal limits. no pathologic mediastinal lymphadenopathy.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening. no pleural nodularity.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: 6.5 cm lobulated hepatic mass in segment 3 of the liver (hypoenhancing). No focal hepatic lesions. Normal attenuation. liver is normal. Post-ablation/embolization change: non-enhancing ablation zone with peripheral halo; contraction over time.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass. angiomyolipoma (macroscopic fat).
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age. ovaries are normal / no adnexal abnormality.
+Lymph nodes: Enlarged porta hepatis lymph node, short axis 22 mm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+
+IMPRESSION:
+- Liver primary malignancy at segment 3 of the liver measuring approximately 65 mm.
+- Findings concerning for nodal involvement.
+- No definite distant metastases identified.
+- RECIST 1.1 Summary:
+- Target lesions (n=2; ≤2 per organ rule applied).
+  • T1: Primary — 65→65 mm (longest diameter).
+  • T2: Lymph node — 24→22 mm (short axis).
+- SLD baseline: 89 mm.
+- SLD current: 87 mm (-2.2% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: PD.

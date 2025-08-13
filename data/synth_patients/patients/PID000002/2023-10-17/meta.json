@@ -1,0 +1,81 @@
+{
+  "patient_id": "PID000002",
+  "timepoint": 5,
+  "study_date": "2023-10-17",
+  "recist": {
+    "baseline_sld_mm": 58,
+    "current_sld_mm": 65,
+    "nadir_sld_mm": 39,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 19.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "kidneys",
+        "text": "angiomyolipoma (macroscopic fat)"
+      },
+      {
+        "organ": "reproductive.prostate",
+        "text": "calcifications"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "lung",
+        "text": "no pulmonary abnormality"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:stomach",
+        "kind": "primary",
+        "organ": "stomach",
+        "location": "lesser curvature of the stomach",
+        "rule": "longest",
+        "baseline_mm": 38,
+        "follow_mm": 42,
+        "size_mm_current": 42,
+        "margin": "smooth",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:subcarinal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "subcarinal",
+        "rule": "short_axis",
+        "baseline_mm": 20,
+        "follow_mm": 23,
+        "size_mm_current": 23,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

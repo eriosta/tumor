@@ -1,0 +1,126 @@
+{
+  "patient_id": "PID000002",
+  "timepoint": 2,
+  "study_date": "2023-05-09",
+  "recist": {
+    "baseline_sld_mm": 81,
+    "current_sld_mm": 73,
+    "nadir_sld_mm": 73,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 3,
+    "level_name": "C3",
+    "artifact": null
+  },
+  "staging_relevance": 6.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "spleen",
+        "text": "accessory spleen"
+      },
+      {
+        "organ": "adrenals",
+        "text": "lipid-rich adenoma"
+      },
+      {
+        "organ": "gi.stomach",
+        "text": "physiologic under-distension thickening"
+      },
+      {
+        "organ": "reproductive.ovary",
+        "text": "simple physiologic cyst"
+      },
+      {
+        "organ": "bladder",
+        "text": "under-distension wall thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: ground-glass opacities within field",
+      "Radiation change: stricture formation"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:pancreas",
+        "kind": "primary",
+        "organ": "pancreas",
+        "location": "neck of the pancreas",
+        "rule": "longest",
+        "baseline_mm": 34,
+        "follow_mm": 31,
+        "size_mm_current": 31,
+        "margin": "lobulated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": 18,
+        "follow_mm": 16,
+        "size_mm_current": 16,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:lung",
+        "kind": "met",
+        "organ": "lung",
+        "rule": "longest",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 6,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": 29,
+        "follow_mm": 26,
+        "size_mm_current": 26,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

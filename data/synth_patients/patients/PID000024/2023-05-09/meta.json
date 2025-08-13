@@ -1,0 +1,90 @@
+{
+  "patient_id": "PID000024",
+  "timepoint": 0,
+  "study_date": "2023-05-09",
+  "recist": {
+    "baseline_sld_mm": 102,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": -1.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "kidneys",
+        "text": "Bosniak I cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:pancreas",
+        "kind": "primary",
+        "organ": "pancreas",
+        "location": "tail of the pancreas",
+        "rule": "longest",
+        "baseline_mm": 79,
+        "follow_mm": null,
+        "size_mm_current": 79,
+        "margin": "spiculated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 12,
+        "necrosis": false,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:celiac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "celiac",
+        "rule": "short_axis",
+        "baseline_mm": 23,
+        "follow_mm": null,
+        "size_mm_current": 23,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

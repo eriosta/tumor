@@ -1,0 +1,30 @@
+FINDINGS:
+Comparison: 2023-10-14.
+Lungs: Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation. simple cyst. no hepatic mass.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules. adrenal glands normal.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: 53 mm spiculated mass within the prostate gland, peripheral zone. No adnexal mass. Uterus/prostate within expected size for age. ovaries are normal / no adnexal abnormality.
+Lymph nodes: No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture. no destructive osseous lesion.
+
+IMPRESSION:
+- Prostate primary malignancy at prostate gland, peripheral zone measuring approximately 53 mm.
+- No pathologically enlarged lymph nodes by size criteria.
+- No definite distant metastases identified.
+- RECIST 1.1 Summary:
+- Target lesions (n=1; ≤2 per organ rule applied).
+  • T1: Primary — 40→53 mm (longest diameter).
+- SLD baseline: 40 mm.
+- SLD current: 53 mm (+32.5% change).
+- New lesions: present (unequivocal).
+- - RECIST 1.1 overall response category: PD.

@@ -1,50 +1,33 @@
-EXAM: CT CAP
-TECHNIQUE: CT chest, abdomen, and pelvis performed with IV contrast. Contiguous <=5-mm axial images.
-HISTORY: Staging/restaging of solid malignancy.
-
 FINDINGS:
-Pulmonary parenchyma: No focal consolidation or suspicious pulmonary nodules. No pneumothorax.
+Beam-hardening streak artifact from dense structures limits evaluation.
+Comparison: 2023-03-07.
+Lungs: Clear lungs without focal mass. No suspicious nodules identified. Post-treatment change: consolidation conforming to beam path. Post-treatment change: fat stranding.
 Mediastinum: Cardiomediastinal contours within normal limits.
 Pleura/Pleural spaces: No pleural effusion or pleural thickening.
-Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
-Liver: No focal hepatic lesions. Normal attenuation.
-Spleen: Normal in size and attenuation. No focal splenic lesion.
-Pancreas: Normal pancreatic contour and enhancement. No focal mass.
-Adrenal glands: Adrenal glands are normal without nodules.
-Kidneys: No hydronephrosis. No enhancing renal mass.
-GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
-Mesentery/Omentum: No ascites. No omental caking.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection. aorta normal caliber.
+Liver: No focal hepatic lesions. Normal attenuation. hemangioma (peripheral nodular enhancement with centripetal fill-in). no hepatic mass.
+Spleen: Normal in size and attenuation. No focal splenic lesion. spleen normal size.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass. side-branch IPMN (no worrisome features). serous cystadenoma.
+Adrenal glands: Adrenal glands are normal without nodules. adrenal glands normal.
+Kidneys: No hydronephrosis. No enhancing renal mass. no renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified. no bowel obstruction.
+Mesentery/Omentum: No ascites. No omental caking. no peritoneal nodularity.
 Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
 Urinary bladder: Unremarkable.
-Reproductive organs: 32 mm spiculated mass within the prostate gland, peripheral zone. No adnexal mass. Uterus/prostate within expected size for age.
+Reproductive organs: 2.6 cm spiculated mass within the prostate gland, peripheral zone. No adnexal mass. Uterus/prostate within expected size for age.
 Lymph nodes: No pathologically enlarged lymph nodes by size criteria.
 Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
-Comparison: Compared to prior 2023-03-07, interval evaluation as below.
-POST-TREATMENT / PROCEDURAL CHANGES:
-- Postsurgical change: postoperative fluid collection
-
-INCIDENTAL / OTHER FINDINGS:
-- kidneys: angiomyolipoma (macroscopic fat)
-- liver: hemangioma (peripheral nodular enhancement with centripetal fill-in)
-- pancreas: simple cyst (<2 cm)
-
-NEGATIVE FINDINGS:
-- kidneys: kidneys are normal
-- adrenals: adrenal glands normal
-- liver: no hepatic mass
-- lung: no pulmonary abnormality
-- mediastinum: no pathologic mediastinal lymphadenopathy
-- pancreas: pancreas is normal
-- mesentery_peritoneum: no peritoneal nodularity
 
 IMPRESSION:
-- Prostate primary malignancy at prostate gland, peripheral zone measuring approximately 32 mm.
+- Prostate primary neoplasm (indeterminate) at prostate gland, peripheral zone measuring approximately 26 mm.
 - No pathologically enlarged lymph nodes by size criteria.
 - No definite distant metastases identified.
 - RECIST 1.1 Summary:
 - Target lesions (n=1; ≤2 per organ rule applied).
-  • T1: Primary — 48→32 mm (longest diameter).
+  • T1: Primary — 48→26 mm (longest diameter).
 - SLD baseline: 48 mm.
-- SLD current: 32 mm (-33.3% change).
+- SLD current: 26 mm (-45.8% change).
 - New lesions: absent (unequivocal).
 - - RECIST 1.1 overall response category: PR.
+
+Comment: Some features are could reflect; short-interval follow-up or problem-solving imaging may be considered.

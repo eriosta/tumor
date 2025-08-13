@@ -1,0 +1,72 @@
+{
+  "patient_id": "PID000021",
+  "timepoint": 1,
+  "study_date": "2023-12-26",
+  "recist": {
+    "baseline_sld_mm": 36,
+    "current_sld_mm": 33,
+    "nadir_sld_mm": 33,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "kidneys",
+        "text": "angiomyolipoma (macroscopic fat)"
+      },
+      {
+        "organ": "lung",
+        "text": "bronchial wall thickening"
+      },
+      {
+        "organ": "pancreas",
+        "text": "serous cystadenoma"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 36,
+        "follow_mm": 33,
+        "size_mm_current": 33,
+        "margin": "irregular",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

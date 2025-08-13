@@ -60,6 +60,22 @@
         "text": "no ascites"
       }
     ],
-    "post_treatment": []
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 48,
+        "follow_mm": null,
+        "size_mm_current": 48,
+        "margin": "spiculated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      }
+    ]
   }
 }

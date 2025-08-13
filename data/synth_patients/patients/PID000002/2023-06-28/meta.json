@@ -1,0 +1,81 @@
+{
+  "patient_id": "PID000002",
+  "timepoint": 3,
+  "study_date": "2023-06-28",
+  "recist": {
+    "baseline_sld_mm": 58,
+    "current_sld_mm": 50,
+    "nadir_sld_mm": 39,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 19.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "bones",
+        "text": "bone islands"
+      },
+      {
+        "organ": "reproductive.ovary",
+        "text": "simple physiologic cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "lung",
+        "text": "lungs are normal"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:stomach",
+        "kind": "primary",
+        "organ": "stomach",
+        "location": "lesser curvature of the stomach",
+        "rule": "longest",
+        "baseline_mm": 38,
+        "follow_mm": 33,
+        "size_mm_current": 33,
+        "margin": "smooth",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:subcarinal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "subcarinal",
+        "rule": "short_axis",
+        "baseline_mm": 20,
+        "follow_mm": 17,
+        "size_mm_current": 17,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

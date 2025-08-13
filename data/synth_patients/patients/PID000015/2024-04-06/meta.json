@@ -1,0 +1,108 @@
+{
+  "patient_id": "PID000015",
+  "timepoint": 4,
+  "study_date": "2024-04-06",
+  "recist": {
+    "baseline_sld_mm": 117,
+    "current_sld_mm": 158,
+    "nadir_sld_mm": 117,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": 27.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "dependent atelectasis"
+      },
+      {
+        "organ": "lung",
+        "text": "subpleural reticulation"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "no aneurysm or dissection"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:lung",
+        "kind": "primary",
+        "organ": "lung",
+        "location": "right middle lobe",
+        "rule": "longest",
+        "baseline_mm": 74,
+        "follow_mm": 102,
+        "size_mm_current": 102,
+        "margin": "smooth",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 18,
+        "follow_mm": 23,
+        "size_mm_current": 23,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "met:adrenal",
+        "kind": "met",
+        "organ": "adrenal",
+        "rule": "longest",
+        "baseline_mm": 25,
+        "follow_mm": 33,
+        "size_mm_current": 33,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

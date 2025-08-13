@@ -1,0 +1,94 @@
+{
+  "patient_id": "PID000022",
+  "timepoint": 5,
+  "study_date": "2024-03-23",
+  "recist": {
+    "baseline_sld_mm": 78,
+    "current_sld_mm": 81,
+    "nadir_sld_mm": 69,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 6.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "pancreas",
+        "text": "simple cyst (<2 cm)"
+      },
+      {
+        "organ": "reproductive.prostate",
+        "text": "BPH"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      },
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:lung",
+        "kind": "primary",
+        "organ": "lung",
+        "location": "left middle lobe",
+        "rule": "longest",
+        "baseline_mm": 61,
+        "follow_mm": 63,
+        "size_mm_current": 63,
+        "margin": "spiculated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:right hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "right hilar",
+        "rule": "short_axis",
+        "baseline_mm": 17,
+        "follow_mm": 18,
+        "size_mm_current": 18,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 14,
+        "necrosis": false,
+        "suspicious": true,
+        "target": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "patient_id": "PID000003",
+  "timepoint": 2,
+  "study_date": "2023-11-22",
+  "recist": {
+    "baseline_sld_mm": 101,
+    "current_sld_mm": 112,
+    "nadir_sld_mm": 65,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 19.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "bones",
+        "text": "degenerative changes"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "no aneurysm or dissection"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 27,
+        "follow_mm": 29,
+        "size_mm_current": 29,
+        "margin": "smooth",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:right hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "right hilar",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:retroperitoneal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "retroperitoneal",
+        "rule": "short_axis",
+        "baseline_mm": 19,
+        "follow_mm": 21,
+        "size_mm_current": 21,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:inguinal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "inguinal",
+        "rule": "short_axis",
+        "baseline_mm": 26,
+        "follow_mm": 29,
+        "size_mm_current": 29,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:liver",
+        "kind": "met",
+        "organ": "liver",
+        "rule": "longest",
+        "baseline_mm": 29,
+        "follow_mm": 33,
+        "size_mm_current": 33,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

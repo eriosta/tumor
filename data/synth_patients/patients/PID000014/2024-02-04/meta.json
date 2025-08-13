@@ -1,0 +1,87 @@
+{
+  "patient_id": "PID000014",
+  "timepoint": 1,
+  "study_date": "2024-02-04",
+  "recist": {
+    "baseline_sld_mm": 105,
+    "current_sld_mm": 121,
+    "nadir_sld_mm": 105,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 6.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "spleen",
+        "text": "tiny cyst"
+      },
+      {
+        "organ": "gi.stomach",
+        "text": "small benign polyp"
+      },
+      {
+        "organ": "spleen",
+        "text": "accessory spleen"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "lung",
+        "text": "lungs are normal"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: volume loss"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:stomach",
+        "kind": "primary",
+        "organ": "stomach",
+        "location": "antrum of the stomach",
+        "rule": "longest",
+        "baseline_mm": 79,
+        "follow_mm": 91,
+        "size_mm_current": 91,
+        "margin": "lobulated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": 26,
+        "follow_mm": 30,
+        "size_mm_current": 30,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

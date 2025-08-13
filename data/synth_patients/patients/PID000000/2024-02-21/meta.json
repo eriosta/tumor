@@ -1,0 +1,110 @@
+{
+  "patient_id": "PID000000",
+  "timepoint": 3,
+  "study_date": "2024-02-21",
+  "recist": {
+    "baseline_sld_mm": 59,
+    "current_sld_mm": 52,
+    "nadir_sld_mm": 34,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": 17.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "spleen",
+        "text": "accessory spleen"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "aorta_great_vessels",
+        "text": "no aneurysm or dissection"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: wall thickening and submucosal edema in irradiated bowel"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:colon",
+        "kind": "primary",
+        "organ": "colon",
+        "location": "transverse colon",
+        "rule": "longest",
+        "baseline_mm": 18,
+        "follow_mm": 16,
+        "size_mm_current": 16,
+        "margin": "irregular",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:right hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "right hilar",
+        "rule": "short_axis",
+        "baseline_mm": 26,
+        "follow_mm": 23,
+        "size_mm_current": 23,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:celiac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "celiac",
+        "rule": "short_axis",
+        "baseline_mm": 15,
+        "follow_mm": 13,
+        "size_mm_current": 13,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:internal iliac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "internal iliac",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 30,
+        "necrosis": false,
+        "suspicious": true,
+        "target": false
+      }
+    ]
+  }
+}

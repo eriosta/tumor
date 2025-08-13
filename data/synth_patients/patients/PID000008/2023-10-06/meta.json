@@ -1,0 +1,90 @@
+{
+  "patient_id": "PID000008",
+  "timepoint": 2,
+  "study_date": "2023-10-06",
+  "recist": {
+    "baseline_sld_mm": 65,
+    "current_sld_mm": 43,
+    "nadir_sld_mm": 39,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "reproductive.prostate",
+        "text": "BPH"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      },
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:colon",
+        "kind": "primary",
+        "organ": "colon",
+        "location": "transverse colon",
+        "rule": "longest",
+        "baseline_mm": 27,
+        "follow_mm": 18,
+        "size_mm_current": 18,
+        "margin": "lobulated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:retroperitoneal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "retroperitoneal",
+        "rule": "short_axis",
+        "baseline_mm": 16,
+        "follow_mm": 11,
+        "size_mm_current": 11,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:inguinal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "inguinal",
+        "rule": "short_axis",
+        "baseline_mm": 22,
+        "follow_mm": 14,
+        "size_mm_current": 14,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

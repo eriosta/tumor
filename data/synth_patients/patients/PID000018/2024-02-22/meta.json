@@ -1,0 +1,107 @@
+{
+  "patient_id": "PID000018",
+  "timepoint": 2,
+  "study_date": "2024-02-22",
+  "recist": {
+    "baseline_sld_mm": 88,
+    "current_sld_mm": 110,
+    "nadir_sld_mm": 80,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 18.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "kidneys",
+        "text": "Bosniak I cyst"
+      },
+      {
+        "organ": "lung",
+        "text": "<6 mm well-circumscribed nodule"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "prominent but subthreshold lymph nodes"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:colon",
+        "kind": "primary",
+        "organ": "colon",
+        "location": "sigmoid colon",
+        "rule": "longest",
+        "baseline_mm": 38,
+        "follow_mm": 48,
+        "size_mm_current": 48,
+        "margin": "lobulated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 26,
+        "follow_mm": 32,
+        "size_mm_current": 32,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:adrenal",
+        "kind": "met",
+        "organ": "adrenal",
+        "rule": "longest",
+        "baseline_mm": 12,
+        "follow_mm": 15,
+        "size_mm_current": 15,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:liver",
+        "kind": "met",
+        "organ": "liver",
+        "rule": "longest",
+        "baseline_mm": 12,
+        "follow_mm": 15,
+        "size_mm_current": 15,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

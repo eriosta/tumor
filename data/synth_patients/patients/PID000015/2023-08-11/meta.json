@@ -1,0 +1,103 @@
+{
+  "patient_id": "PID000015",
+  "timepoint": 0,
+  "study_date": "2023-08-11",
+  "recist": {
+    "baseline_sld_mm": 117,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "kidneys",
+        "text": "Bosniak I cyst"
+      },
+      {
+        "organ": "gi.small_bowel",
+        "text": "nonspecific fluid levels"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "lung",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      },
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:lung",
+        "kind": "primary",
+        "organ": "lung",
+        "location": "right middle lobe",
+        "rule": "longest",
+        "baseline_mm": 74,
+        "follow_mm": null,
+        "size_mm_current": 74,
+        "margin": "smooth",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 18,
+        "follow_mm": null,
+        "size_mm_current": 18,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "met:adrenal",
+        "kind": "met",
+        "organ": "adrenal",
+        "rule": "longest",
+        "baseline_mm": 25,
+        "follow_mm": null,
+        "size_mm_current": 25,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

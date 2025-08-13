@@ -1,0 +1,85 @@
+{
+  "patient_id": "PID000016",
+  "timepoint": 3,
+  "study_date": "2023-08-08",
+  "recist": {
+    "baseline_sld_mm": 89,
+    "current_sld_mm": 83,
+    "nadir_sld_mm": 53,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 19.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "gi.small_bowel",
+        "text": "nonspecific fluid levels"
+      },
+      {
+        "organ": "gi.colon",
+        "text": "diverticulosis"
+      },
+      {
+        "organ": "spleen",
+        "text": "accessory spleen"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 3 of the liver",
+        "rule": "longest",
+        "baseline_mm": 65,
+        "follow_mm": 61,
+        "size_mm_current": 61,
+        "margin": "lobulated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": 24,
+        "follow_mm": 22,
+        "size_mm_current": 22,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

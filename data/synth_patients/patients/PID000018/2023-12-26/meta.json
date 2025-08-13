@@ -1,0 +1,107 @@
+{
+  "patient_id": "PID000018",
+  "timepoint": 1,
+  "study_date": "2023-12-26",
+  "recist": {
+    "baseline_sld_mm": 88,
+    "current_sld_mm": 80,
+    "nadir_sld_mm": 80,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 6.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "aorta_great_vessels",
+        "text": "tortuosity"
+      },
+      {
+        "organ": "bones",
+        "text": "degenerative changes"
+      },
+      {
+        "organ": "gi.stomach",
+        "text": "physiologic under-distension thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "lung",
+        "text": "no suspicious pulmonary nodule"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:colon",
+        "kind": "primary",
+        "organ": "colon",
+        "location": "sigmoid colon",
+        "rule": "longest",
+        "baseline_mm": 38,
+        "follow_mm": 34,
+        "size_mm_current": 34,
+        "margin": "lobulated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 26,
+        "follow_mm": 25,
+        "size_mm_current": 25,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:adrenal",
+        "kind": "met",
+        "organ": "adrenal",
+        "rule": "longest",
+        "baseline_mm": 12,
+        "follow_mm": 10,
+        "size_mm_current": 10,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:liver",
+        "kind": "met",
+        "organ": "liver",
+        "rule": "longest",
+        "baseline_mm": 12,
+        "follow_mm": 11,
+        "size_mm_current": 11,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

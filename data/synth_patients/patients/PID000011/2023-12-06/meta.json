@@ -1,0 +1,85 @@
+{
+  "patient_id": "PID000011",
+  "timepoint": 0,
+  "study_date": "2023-12-06",
+  "recist": {
+    "baseline_sld_mm": 37,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "pleura",
+        "text": "pleural calcifications"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "prominent but subthreshold lymph nodes"
+      },
+      {
+        "organ": "gi.stomach",
+        "text": "physiologic under-distension thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 2 of the liver",
+        "rule": "longest",
+        "baseline_mm": 37,
+        "follow_mm": null,
+        "size_mm_current": 37,
+        "margin": "spiculated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 8,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      }
+    ]
+  }
+}

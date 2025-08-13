@@ -1,0 +1,81 @@
+{
+  "patient_id": "PID000012",
+  "timepoint": 2,
+  "study_date": "2023-11-22",
+  "recist": {
+    "baseline_sld_mm": 59,
+    "current_sld_mm": 34,
+    "nadir_sld_mm": 33,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "gi.stomach",
+        "text": "small benign polyp"
+      },
+      {
+        "organ": "lung",
+        "text": "<6 mm well-circumscribed nodule"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "lung",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:lung",
+        "kind": "primary",
+        "organ": "lung",
+        "location": "right lower lobe",
+        "rule": "longest",
+        "baseline_mm": 35,
+        "follow_mm": 20,
+        "size_mm_current": 20,
+        "margin": "lobulated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 24,
+        "follow_mm": 14,
+        "size_mm_current": 14,
+        "necrosis": true,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

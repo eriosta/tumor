@@ -1,37 +1,21 @@
-EXAM: CT CAP
-TECHNIQUE: Contrast-enhanced CT CAP with portal venous phase abdomen/pelvis; chest imaged in a single post-contrast phase. Beam-hardening streak artifact from dense structures limits evaluation.
-HISTORY: Staging/restaging of solid malignancy.
-
 FINDINGS:
-Lungs: No focal consolidation or suspicious pulmonary nodules. No pneumothorax.
+Respiratory motion artifact partially limits assessment.
+Lungs: Clear lungs without focal mass. No suspicious nodules identified.
 Mediastinum: Enlarged right hilar lymph node, short axis 26 mm. Cardiomediastinal contours within normal limits.
-Pleura/Pleural spaces: No pleural effusion or pleural thickening.
-Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
-Liver: No focal hepatic lesions. Normal attenuation.
-Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening. no pleural nodularity.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection. aorta normal caliber.
+Liver: No focal hepatic lesions. Normal attenuation. liver is normal.
+Spleen: Normal in size and attenuation. No focal splenic lesion. spleen normal size.
 Pancreas: Normal pancreatic contour and enhancement. No focal mass.
 Adrenal glands: Adrenal glands are normal without nodules.
 Kidneys: No hydronephrosis. No enhancing renal mass.
-GI tract/Bowel: 18 mm irregular mass involving the transverse colon with focal wall thickening (hyperenhancing). No obstructive process. No focal bowel wall mass identified.
+GI tract/Bowel: 18 mm irregular mass involving the transverse colon with focal wall thickening (hyperenhancing). No obstructive process. No focal bowel wall mass identified. nonspecific fluid levels.
 Mesentery/Omentum: No ascites. No omental caking.
 Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
 Urinary bladder: Unremarkable.
 Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
-Lymph nodes: Enlarged celiac lymph node, short axis 1.5 cm. Enlarged internal iliac lymph node, short axis 30 mm. No pathologically enlarged lymph nodes by size criteria.
-Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
-INCIDENTAL / OTHER FINDINGS:
-- gi.small_bowel: nonspecific fluid levels
-- kidneys: angiomyolipoma (macroscopic fat)
-- pancreas: side-branch IPMN (no worrisome features)
-
-NEGATIVE FINDINGS:
-- pleura: no pleural nodularity
-- aorta_great_vessels: no aneurysm or dissection
-- spleen: no focal splenic lesion
-- mediastinum: no mediastinal mass
-- gi: no bowel obstruction
-- pancreas: no pancreatic mass
-- bladder: urinary bladder normal
+Lymph nodes: Enlarged celiac lymph node, short axis 1.5 cm. Enlarged internal iliac lymph node, short axis 3.0 cm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture. no destructive osseous lesion.
 
 IMPRESSION:
 - Colon primary malignancy at transverse colon measuring approximately 18 mm.

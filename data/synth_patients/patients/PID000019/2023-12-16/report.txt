@@ -1,0 +1,30 @@
+FINDINGS:
+Lungs: Clear lungs without focal mass. No suspicious nodules identified. Post-treatment change: fat stranding.
+Mediastinum: Enlarged left hilar lymph node, short axis 2.9 cm with central necrosis. Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening. no pleural nodularity.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass. pancreas is normal.
+Adrenal glands: Adrenal glands are normal without nodules. no adrenal nodule.
+Kidneys: 70 mm spiculated enhancing renal mass in the left kidney, lower pole. No hydronephrosis. No enhancing renal mass. kidneys are normal.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified. nonspecific fluid levels.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable. no focal bladder wall thickening.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged mesenteric lymph node, short axis 19 mm. Enlarged internal iliac lymph node, short axis 12 mm with central necrosis. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture. degenerative changes.
+
+IMPRESSION:
+- Kidney primary malignancy at left kidney, lower pole measuring approximately 70 mm.
+- Findings concerning for nodal involvement.
+- No definite distant metastases identified.
+- RECIST 1.1 Summary:
+- Target lesions (n=3; ≤2 per organ rule applied).
+  • T1: Primary — 70 mm (longest diameter) at baseline.
+  • T2: Lymph node — 29 mm (short axis) at baseline.
+  • T3: Lymph node — 19 mm (short axis) at baseline.
+- SLD baseline: 118 mm.
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: Baseline (no category).

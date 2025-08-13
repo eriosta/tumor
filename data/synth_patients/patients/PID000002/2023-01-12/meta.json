@@ -1,0 +1,124 @@
+{
+  "patient_id": "PID000002",
+  "timepoint": 0,
+  "study_date": "2023-01-12",
+  "recist": {
+    "baseline_sld_mm": 81,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 3,
+    "level_name": "C3",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": -1.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "reproductive.prostate",
+        "text": "BPH"
+      },
+      {
+        "organ": "spleen",
+        "text": "tiny cyst"
+      },
+      {
+        "organ": "pancreas",
+        "text": "side-branch IPMN (no worrisome features)"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "lung",
+        "text": "lungs are normal"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: volume loss",
+      "Radiation change: stricture formation",
+      "Postsurgical change: altered anatomy post-resection"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:pancreas",
+        "kind": "primary",
+        "organ": "pancreas",
+        "location": "neck of the pancreas",
+        "rule": "longest",
+        "baseline_mm": 34,
+        "follow_mm": null,
+        "size_mm_current": 34,
+        "margin": "lobulated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": 18,
+        "follow_mm": null,
+        "size_mm_current": 18,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:lung",
+        "kind": "met",
+        "organ": "lung",
+        "rule": "longest",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 6,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": 29,
+        "follow_mm": null,
+        "size_mm_current": 29,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

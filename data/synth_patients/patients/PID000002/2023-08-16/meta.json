@@ -1,0 +1,86 @@
+{
+  "patient_id": "PID000002",
+  "timepoint": 4,
+  "study_date": "2023-08-16",
+  "recist": {
+    "baseline_sld_mm": 58,
+    "current_sld_mm": 51,
+    "nadir_sld_mm": 39,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": 16.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "gi.colon",
+        "text": "small benign polyp"
+      },
+      {
+        "organ": "reproductive.prostate",
+        "text": "BPH"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "lung",
+        "text": "no pleural effusion"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:stomach",
+        "kind": "primary",
+        "organ": "stomach",
+        "location": "lesser curvature of the stomach",
+        "rule": "longest",
+        "baseline_mm": 38,
+        "follow_mm": 33,
+        "size_mm_current": 33,
+        "margin": "smooth",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:subcarinal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "subcarinal",
+        "rule": "short_axis",
+        "baseline_mm": 20,
+        "follow_mm": 18,
+        "size_mm_current": 18,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

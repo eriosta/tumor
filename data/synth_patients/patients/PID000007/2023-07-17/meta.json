@@ -1,0 +1,88 @@
+{
+  "patient_id": "PID000007",
+  "timepoint": 2,
+  "study_date": "2023-07-17",
+  "recist": {
+    "baseline_sld_mm": 118,
+    "current_sld_mm": 129,
+    "nadir_sld_mm": 75,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 19.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "bladder",
+        "text": "under-distension wall thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 7 of the liver",
+        "rule": "longest",
+        "baseline_mm": 61,
+        "follow_mm": 67,
+        "size_mm_current": 67,
+        "margin": "lobulated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 29,
+        "follow_mm": 31,
+        "size_mm_current": 31,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:bone",
+        "kind": "met",
+        "organ": "bone",
+        "rule": "longest",
+        "baseline_mm": 28,
+        "follow_mm": 31,
+        "size_mm_current": 31,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "patient_id": "PID000015",
+  "timepoint": 3,
+  "study_date": "2024-02-02",
+  "recist": {
+    "baseline_sld_mm": 117,
+    "current_sld_mm": 150,
+    "nadir_sld_mm": 117,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": 27.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "gi.stomach",
+        "text": "small benign polyp"
+      },
+      {
+        "organ": "bladder",
+        "text": "under-distension wall thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: stricture formation"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:lung",
+        "kind": "primary",
+        "organ": "lung",
+        "location": "right middle lobe",
+        "rule": "longest",
+        "baseline_mm": 74,
+        "follow_mm": 94,
+        "size_mm_current": 94,
+        "margin": "smooth",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 18,
+        "follow_mm": 24,
+        "size_mm_current": 24,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "met:adrenal",
+        "kind": "met",
+        "organ": "adrenal",
+        "rule": "longest",
+        "baseline_mm": 25,
+        "follow_mm": 32,
+        "size_mm_current": 32,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

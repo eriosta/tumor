@@ -1,0 +1,114 @@
+{
+  "patient_id": "PID000010",
+  "timepoint": 4,
+  "study_date": "2023-08-18",
+  "recist": {
+    "baseline_sld_mm": 103,
+    "current_sld_mm": 95,
+    "nadir_sld_mm": 94,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 6.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "dependent atelectasis"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      },
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      }
+    ],
+    "post_treatment": [
+      "Post-ablation/embolization change: non-enhancing ablation cavity with peripheral rim; SBRT field with altered enhancement"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:pancreas",
+        "kind": "primary",
+        "organ": "pancreas",
+        "location": "body of the pancreas",
+        "rule": "longest",
+        "baseline_mm": 50,
+        "follow_mm": 47,
+        "size_mm_current": 47,
+        "margin": "smooth",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:celiac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "celiac",
+        "rule": "short_axis",
+        "baseline_mm": 21,
+        "follow_mm": 19,
+        "size_mm_current": 19,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:liver",
+        "kind": "met",
+        "organ": "liver",
+        "rule": "longest",
+        "baseline_mm": 13,
+        "follow_mm": 12,
+        "size_mm_current": 12,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": 19,
+        "follow_mm": 17,
+        "size_mm_current": 17,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

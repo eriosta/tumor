@@ -1,0 +1,79 @@
+{
+  "patient_id": "PID000020",
+  "timepoint": 0,
+  "study_date": "2023-11-15",
+  "recist": {
+    "baseline_sld_mm": 69,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "spleen",
+        "text": "accessory spleen"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: consolidation conforming to beam path"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:stomach",
+        "kind": "primary",
+        "organ": "stomach",
+        "location": "greater curvature of the stomach",
+        "rule": "longest",
+        "baseline_mm": 52,
+        "follow_mm": null,
+        "size_mm_current": 52,
+        "margin": "lobulated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": 17,
+        "follow_mm": null,
+        "size_mm_current": 17,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

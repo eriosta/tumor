@@ -4,74 +4,84 @@
   "study_date": "2023-06-14",
   "recist": {
     "baseline_sld_mm": 48,
-    "current_sld_mm": 27,
-    "nadir_sld_mm": 27,
+    "current_sld_mm": 29,
+    "nadir_sld_mm": 26,
     "overall_response": "PR"
   },
   "complexity_profile": {
     "level": 3,
     "level_name": "C3",
     "artifact": {
-      "key": "beam_hardening",
-      "impact": 2,
-      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
-      "severity_rank": 3
+      "key": "metal_streak",
+      "impact": 3,
+      "report_phrase": "Extensive streak artifact from surgical clips limits adjacent evaluation.",
+      "severity_rank": 4
     }
   },
-  "staging_relevance": -3.0,
+  "staging_relevance": -4.0,
   "extras": {
     "incidentals": [
       {
-        "organ": "kidneys",
-        "text": "angiomyolipoma (macroscopic fat)"
-      },
-      {
-        "organ": "pancreas",
-        "text": "side-branch IPMN (no worrisome features)"
+        "organ": "spleen",
+        "text": "tiny cyst"
       },
       {
         "organ": "lung",
-        "text": "subpleural reticulation"
+        "text": "calcified granuloma"
       },
       {
-        "organ": "pancreas",
-        "text": "side-branch IPMN (no worrisome features)"
-      },
-      {
-        "organ": "bladder",
-        "text": "under-distension wall thickening"
+        "organ": "liver",
+        "text": "simple cyst"
       }
     ],
     "negatives": [
       {
-        "organ": "gi",
-        "text": "stomach is normal"
-      },
-      {
-        "organ": "kidneys",
-        "text": "no renal mass"
-      },
-      {
         "organ": "pancreas",
-        "text": "pancreas is normal"
-      },
-      {
-        "organ": "bones",
-        "text": "no destructive osseous lesion"
-      },
-      {
-        "organ": "reproductive",
-        "text": "ovaries are normal / no adnexal abnormality"
+        "text": "no pancreatic mass"
       },
       {
         "organ": "spleen",
         "text": "spleen normal size"
       },
       {
-        "organ": "lung",
-        "text": "no suspicious pulmonary nodule"
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
       }
     ],
-    "post_treatment": []
+    "post_treatment": [
+      "Radiation change: fibrosis"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 48,
+        "follow_mm": 29,
+        "size_mm_current": 29,
+        "margin": "spiculated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      }
+    ]
   }
 }

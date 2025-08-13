@@ -1,0 +1,88 @@
+{
+  "patient_id": "PID000005",
+  "timepoint": 2,
+  "study_date": "2023-10-16",
+  "recist": {
+    "baseline_sld_mm": 95,
+    "current_sld_mm": 93,
+    "nadir_sld_mm": 66,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 18.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "kidneys",
+        "text": "angiomyolipoma (macroscopic fat)"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:pancreas",
+        "kind": "primary",
+        "organ": "pancreas",
+        "location": "tail of the pancreas",
+        "rule": "longest",
+        "baseline_mm": 38,
+        "follow_mm": 39,
+        "size_mm_current": 39,
+        "margin": "lobulated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": 22,
+        "follow_mm": 21,
+        "size_mm_current": 21,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:bone",
+        "kind": "met",
+        "organ": "bone",
+        "rule": "longest",
+        "baseline_mm": 35,
+        "follow_mm": 33,
+        "size_mm_current": 33,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

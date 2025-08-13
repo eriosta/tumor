@@ -1,0 +1,95 @@
+{
+  "patient_id": "PID000013",
+  "timepoint": 0,
+  "study_date": "2023-08-07",
+  "recist": {
+    "baseline_sld_mm": 67,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": -2.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "bladder",
+        "text": "under-distension wall thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "lung",
+        "text": "no pulmonary abnormality"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: ground-glass opacities within field"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:stomach",
+        "kind": "primary",
+        "organ": "stomach",
+        "location": "antrum of the stomach",
+        "rule": "longest",
+        "baseline_mm": 34,
+        "follow_mm": null,
+        "size_mm_current": 34,
+        "margin": "lobulated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:internal iliac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "internal iliac",
+        "rule": "short_axis",
+        "baseline_mm": 21,
+        "follow_mm": null,
+        "size_mm_current": 21,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:bone",
+        "kind": "met",
+        "organ": "bone",
+        "rule": "longest",
+        "baseline_mm": 12,
+        "follow_mm": null,
+        "size_mm_current": 12,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

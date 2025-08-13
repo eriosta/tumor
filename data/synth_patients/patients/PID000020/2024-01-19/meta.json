@@ -1,0 +1,90 @@
+{
+  "patient_id": "PID000020",
+  "timepoint": 1,
+  "study_date": "2024-01-19",
+  "recist": {
+    "baseline_sld_mm": 69,
+    "current_sld_mm": 73,
+    "nadir_sld_mm": 69,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": 5.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "aorta_great_vessels",
+        "text": "tortuosity"
+      },
+      {
+        "organ": "kidneys",
+        "text": "angiomyolipoma (macroscopic fat)"
+      },
+      {
+        "organ": "lung",
+        "text": "subpleural reticulation"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      },
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:stomach",
+        "kind": "primary",
+        "organ": "stomach",
+        "location": "greater curvature of the stomach",
+        "rule": "longest",
+        "baseline_mm": 52,
+        "follow_mm": 55,
+        "size_mm_current": 55,
+        "margin": "lobulated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": 17,
+        "follow_mm": 18,
+        "size_mm_current": 18,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

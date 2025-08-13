@@ -1,0 +1,32 @@
+FINDINGS:
+Comparison: 2023-07-29.
+Pulmonary parenchyma: No focal consolidation or suspicious pulmonary nodules. No pneumothorax.
+Mediastinum: Cardiomediastinal contours within normal limits. no pathologic mediastinal lymphadenopathy.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection. aorta normal caliber.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules. no adrenal nodule.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: 1.8 cm lobulated mass involving the transverse colon with focal wall thickening (hyperenhancing). No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable. urinary bladder normal.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age. BPH.
+Lymph nodes: Enlarged retroperitoneal lymph node, short axis 11 mm. Enlarged inguinal lymph node, short axis 14 mm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture. no destructive osseous lesion.
+
+IMPRESSION:
+- Colon primary malignancy at transverse colon measuring approximately 18 mm.
+- Findings concerning for nodal involvement.
+- No definite distant metastases identified.
+- RECIST 1.1 Summary:
+- Target lesions (n=3; ≤2 per organ rule applied).
+  • T1: Primary — 27→18 mm (longest diameter).
+  • T2: Lymph node — 16→11 mm (short axis).
+  • T3: Lymph node — 22→14 mm (short axis).
+- SLD baseline: 65 mm.
+- SLD current: 43 mm (-33.8% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: PR.

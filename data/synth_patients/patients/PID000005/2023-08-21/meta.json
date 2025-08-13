@@ -1,0 +1,96 @@
+{
+  "patient_id": "PID000005",
+  "timepoint": 1,
+  "study_date": "2023-08-21",
+  "recist": {
+    "baseline_sld_mm": 95,
+    "current_sld_mm": 66,
+    "nadir_sld_mm": 66,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 23.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "bones",
+        "text": "degenerative changes"
+      },
+      {
+        "organ": "lung",
+        "text": "subpleural reticulation"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "prominent but subthreshold lymph nodes"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "lung",
+        "text": "lungs are normal"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:pancreas",
+        "kind": "primary",
+        "organ": "pancreas",
+        "location": "tail of the pancreas",
+        "rule": "longest",
+        "baseline_mm": 38,
+        "follow_mm": 26,
+        "size_mm_current": 26,
+        "margin": "lobulated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": 22,
+        "follow_mm": 15,
+        "size_mm_current": 15,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:bone",
+        "kind": "met",
+        "organ": "bone",
+        "rule": "longest",
+        "baseline_mm": 35,
+        "follow_mm": 25,
+        "size_mm_current": 25,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "patient_id": "PID000015",
+  "timepoint": 1,
+  "study_date": "2023-10-11",
+  "recist": {
+    "baseline_sld_mm": 117,
+    "current_sld_mm": 121,
+    "nadir_sld_mm": 117,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": 4.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "spleen",
+        "text": "tiny cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      }
+    ],
+    "post_treatment": [
+      "Post-ablation/embolization change: non-enhancing ablation cavity with peripheral rim; SBRT field with altered enhancement"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:lung",
+        "kind": "primary",
+        "organ": "lung",
+        "location": "right middle lobe",
+        "rule": "longest",
+        "baseline_mm": 74,
+        "follow_mm": 77,
+        "size_mm_current": 77,
+        "margin": "smooth",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 18,
+        "follow_mm": 18,
+        "size_mm_current": 18,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "met:adrenal",
+        "kind": "met",
+        "organ": "adrenal",
+        "rule": "longest",
+        "baseline_mm": 25,
+        "follow_mm": 26,
+        "size_mm_current": 26,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

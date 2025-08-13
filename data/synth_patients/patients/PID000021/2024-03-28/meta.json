@@ -1,0 +1,70 @@
+{
+  "patient_id": "PID000021",
+  "timepoint": 3,
+  "study_date": "2024-03-28",
+  "recist": {
+    "baseline_sld_mm": 36,
+    "current_sld_mm": 34,
+    "nadir_sld_mm": 33,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "pancreas",
+        "text": "simple cyst (<2 cm)"
+      },
+      {
+        "organ": "gi.stomach",
+        "text": "physiologic under-distension thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "lung",
+        "text": "no suspicious pulmonary nodule"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      }
+    ],
+    "post_treatment": [
+      "Postsurgical change: brachytherapy seeds"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 36,
+        "follow_mm": 34,
+        "size_mm_current": 34,
+        "margin": "irregular",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

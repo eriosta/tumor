@@ -1,0 +1,121 @@
+{
+  "patient_id": "PID000010",
+  "timepoint": 2,
+  "study_date": "2023-04-27",
+  "recist": {
+    "baseline_sld_mm": 103,
+    "current_sld_mm": 94,
+    "nadir_sld_mm": 94,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": 5.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "subpleural reticulation"
+      },
+      {
+        "organ": "pancreas",
+        "text": "simple cyst (<2 cm)"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      },
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no pathologic mediastinal lymphadenopathy"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:pancreas",
+        "kind": "primary",
+        "organ": "pancreas",
+        "location": "body of the pancreas",
+        "rule": "longest",
+        "baseline_mm": 50,
+        "follow_mm": 46,
+        "size_mm_current": 46,
+        "margin": "smooth",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 9,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:celiac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "celiac",
+        "rule": "short_axis",
+        "baseline_mm": 21,
+        "follow_mm": 19,
+        "size_mm_current": 19,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:liver",
+        "kind": "met",
+        "organ": "liver",
+        "rule": "longest",
+        "baseline_mm": 13,
+        "follow_mm": 11,
+        "size_mm_current": 11,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": 19,
+        "follow_mm": 18,
+        "size_mm_current": 18,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

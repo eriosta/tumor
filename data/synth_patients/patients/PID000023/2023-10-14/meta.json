@@ -1,0 +1,69 @@
+{
+  "patient_id": "PID000023",
+  "timepoint": 3,
+  "study_date": "2023-10-14",
+  "recist": {
+    "baseline_sld_mm": 40,
+    "current_sld_mm": 53,
+    "nadir_sld_mm": 36,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": 22.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "<6 mm well-circumscribed nodule"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      },
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 40,
+        "follow_mm": 53,
+        "size_mm_current": 53,
+        "margin": "spiculated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

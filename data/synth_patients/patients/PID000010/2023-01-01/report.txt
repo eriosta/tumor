@@ -1,0 +1,31 @@
+FINDINGS:
+Lungs: No focal consolidation or suspicious pulmonary nodules. No pneumothorax. subpleural reticulation.
+Mediastinum: Enlarged left hilar lymph node, short axis 9 mm. Cardiomediastinal contours within normal limits. no pathologic mediastinal lymphadenopathy.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: 1.3 cm lesion in the liver, suspicious for metastasis. No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion. tiny cyst.
+Pancreas: 5.0 cm smooth pancreatic mass in the body of the pancreas (hypoenhancing). Normal pancreatic contour and enhancement. No focal mass. no pancreatic mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified. no colonic mass.
+Mesentery/Omentum: 1.9 cm lesion in the peritoneum, suspicious for metastasis. No ascites. No omental caking. no peritoneal nodularity.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age. ovaries are normal / no adnexal abnormality.
+Lymph nodes: Enlarged celiac lymph node, short axis 21 mm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+
+IMPRESSION:
+- Pancreas primary malignancy at body of the pancreas measuring approximately 50 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: liver, peritoneum.
+- RECIST 1.1 Summary:
+- Target lesions (n=4; ≤2 per organ rule applied).
+  • T1: Primary — 50 mm (longest diameter) at baseline.
+  • T2: Metastasis — 13 mm (longest diameter) at baseline.
+  • T3: Metastasis — 19 mm (longest diameter) at baseline.
+  • T4: Lymph node — 21 mm (short axis) at baseline.
+- SLD baseline: 103 mm.
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: Baseline (no category).

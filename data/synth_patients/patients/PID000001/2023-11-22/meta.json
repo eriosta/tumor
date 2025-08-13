@@ -1,0 +1,98 @@
+{
+  "patient_id": "PID000001",
+  "timepoint": 3,
+  "study_date": "2023-11-22",
+  "recist": {
+    "baseline_sld_mm": 96,
+    "current_sld_mm": 124,
+    "nadir_sld_mm": 61,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 19.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "kidneys",
+        "text": "Bosniak I cyst"
+      },
+      {
+        "organ": "bones",
+        "text": "bone islands"
+      },
+      {
+        "organ": "reproductive.prostate",
+        "text": "calcifications"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pancreas",
+        "text": "no pancreatic mass"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      }
+    ],
+    "post_treatment": [
+      "Postsurgical change: resection margin changes"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:kidney",
+        "kind": "primary",
+        "organ": "kidney",
+        "location": "left kidney, interpolar",
+        "rule": "longest",
+        "baseline_mm": 48,
+        "follow_mm": 61,
+        "size_mm_current": 61,
+        "margin": "spiculated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": 27,
+        "follow_mm": 36,
+        "size_mm_current": 36,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": 21,
+        "follow_mm": 27,
+        "size_mm_current": 27,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

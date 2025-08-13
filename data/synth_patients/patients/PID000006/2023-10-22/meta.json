@@ -1,0 +1,95 @@
+{
+  "patient_id": "PID000006",
+  "timepoint": 4,
+  "study_date": "2023-10-22",
+  "recist": {
+    "baseline_sld_mm": 97,
+    "current_sld_mm": 134,
+    "nadir_sld_mm": 97,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
+  },
+  "staging_relevance": 26.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "spleen",
+        "text": "tiny cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "lung",
+        "text": "no suspicious pulmonary nodule"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 79,
+        "follow_mm": 110,
+        "size_mm_current": 110,
+        "margin": "smooth",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:celiac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "celiac",
+        "rule": "short_axis",
+        "baseline_mm": 18,
+        "follow_mm": 24,
+        "size_mm_current": 24,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:obturator",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "obturator",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 10,
+        "necrosis": false,
+        "suspicious": true,
+        "target": false
+      }
+    ]
+  }
+}

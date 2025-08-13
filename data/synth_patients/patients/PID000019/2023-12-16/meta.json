@@ -1,0 +1,109 @@
+{
+  "patient_id": "PID000019",
+  "timepoint": 0,
+  "study_date": "2023-12-16",
+  "recist": {
+    "baseline_sld_mm": 118,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "bones",
+        "text": "degenerative changes"
+      },
+      {
+        "organ": "gi.small_bowel",
+        "text": "nonspecific fluid levels"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      },
+      {
+        "organ": "pancreas",
+        "text": "pancreas is normal"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: fat stranding"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:kidney",
+        "kind": "primary",
+        "organ": "kidney",
+        "location": "left kidney, lower pole",
+        "rule": "longest",
+        "baseline_mm": 70,
+        "follow_mm": null,
+        "size_mm_current": 70,
+        "margin": "spiculated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": 29,
+        "follow_mm": null,
+        "size_mm_current": 29,
+        "necrosis": true,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": 19,
+        "follow_mm": null,
+        "size_mm_current": 19,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:internal iliac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "internal iliac",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 12,
+        "necrosis": true,
+        "suspicious": true,
+        "target": false
+      }
+    ]
+  }
+}

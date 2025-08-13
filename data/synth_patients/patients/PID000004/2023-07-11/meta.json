@@ -1,0 +1,112 @@
+{
+  "patient_id": "PID000004",
+  "timepoint": 2,
+  "study_date": "2023-07-11",
+  "recist": {
+    "baseline_sld_mm": 109,
+    "current_sld_mm": 59,
+    "nadir_sld_mm": 59,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "bronchial wall thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "kidneys",
+        "text": "no renal mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 2 of the liver",
+        "rule": "longest",
+        "baseline_mm": 54,
+        "follow_mm": 29,
+        "size_mm_current": 29,
+        "margin": "irregular",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 10,
+        "necrosis": true,
+        "suspicious": true,
+        "target": false
+      },
+      {
+        "lesion_id": "ln:internal iliac",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "internal iliac",
+        "rule": "short_axis",
+        "baseline_mm": 20,
+        "follow_mm": 11,
+        "size_mm_current": 11,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:bone",
+        "kind": "met",
+        "organ": "bone",
+        "rule": "longest",
+        "baseline_mm": 25,
+        "follow_mm": 14,
+        "size_mm_current": 14,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": 10,
+        "follow_mm": 5,
+        "size_mm_current": 5,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

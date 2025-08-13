@@ -1,0 +1,98 @@
+{
+  "patient_id": "PID000007",
+  "timepoint": 3,
+  "study_date": "2023-09-11",
+  "recist": {
+    "baseline_sld_mm": 118,
+    "current_sld_mm": 164,
+    "nadir_sld_mm": 75,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 29.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "reproductive.prostate",
+        "text": "BPH"
+      },
+      {
+        "organ": "bones",
+        "text": "degenerative changes"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "small thymic remnant"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      },
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: stricture formation"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 7 of the liver",
+        "rule": "longest",
+        "baseline_mm": 61,
+        "follow_mm": 84,
+        "size_mm_current": 84,
+        "margin": "lobulated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 29,
+        "follow_mm": 41,
+        "size_mm_current": 41,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:bone",
+        "kind": "met",
+        "organ": "bone",
+        "rule": "longest",
+        "baseline_mm": 28,
+        "follow_mm": 39,
+        "size_mm_current": 39,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

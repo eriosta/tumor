@@ -1,0 +1,81 @@
+{
+  "patient_id": "PID000011",
+  "timepoint": 4,
+  "study_date": "2024-08-19",
+  "recist": {
+    "baseline_sld_mm": 37,
+    "current_sld_mm": 41,
+    "nadir_sld_mm": 23,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 13.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "mediastinum",
+        "text": "small thymic remnant"
+      },
+      {
+        "organ": "spleen",
+        "text": "tiny cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no ascites"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 2 of the liver",
+        "rule": "longest",
+        "baseline_mm": 37,
+        "follow_mm": 41,
+        "size_mm_current": 41,
+        "margin": "spiculated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 8,
+        "necrosis": false,
+        "suspicious": false,
+        "target": false
+      }
+    ]
+  }
+}

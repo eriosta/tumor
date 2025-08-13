@@ -1,28 +1,29 @@
+// src/App.tsx
 import React, { useMemo, useState } from 'react';
-
-/**
- * RECIST Dashboard Prototype
- * - Upload either many per-study `meta.json` files (multi-file input), or a single `cohort_labels.jsonl`.
- * - Dark mode, minimal, focuses on SLD-over-time and a clean table.
- *
- * Expected per-study meta.json shape (from gen_cohort):
- * {
- *   patient_id: string,
- *   timepoint: number,
- *   study_date: "YYYY-MM-DD",
- *   recist: {
- *     baseline_sld_mm: number,
- *     current_sld_mm: number | null,
- *     nadir_sld_mm: number | null,
- *     overall_response: "CR"|"PR"|"SD"|"PD"|"Baseline (no category)"
- *   }
- * }
- */
-
-import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts';
+import {
+  LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine,
+  BarChart, Bar, Legend
+} from 'recharts';
 import type { DotProps } from 'recharts';
 
-// ------------------- Types -------------------
+/** ---------- Types (supports per-lesion details) ---------- */
+
+type Lesion = {
+  lesion_id: string;
+  kind: 'primary'|'ln'|'met';
+  organ: string;
+  location?: string;
+  station?: string;
+  rule: 'longest'|'short_axis';
+  baseline_mm?: number | null;
+  follow_mm?: number | null;        // target follow-up measure at this TP
+  size_mm_current?: number | null;  // what appears in FINDINGS at this TP
+  margin?: string;
+  enhancement?: string;
+  necrosis?: boolean;
+  suspicious?: boolean;
+  target?: boolean;
+};
 
 type RecistMeta = {
   patient_id: string;
@@ -34,14 +35,31 @@ type RecistMeta = {
     nadir_sld_mm: number | null;
     overall_response: string;
   };
+  lesions?: Lesion[];
 };
 
 type PatientSeries = {
   patientId: string;
-  rows: Array<RecistMeta & { sld_mm: number; pct_from_baseline: number | null; pct_from_nadir: number | null }>; 
+  rows: Array<RecistMeta & {
+    sld_mm: number;
+    pct_from_baseline: number | null;
+    pct_from_nadir: number | null;
+  }>;
 };
 
-// ------------------- Helpers -------------------
+type LesionRow = {
+  lesion: {
+    id: string;
+    label: string; // compact label, e.g. "L1"
+    organ: string;
+    rule: 'longest'|'short_axis';
+    target: boolean;
+  };
+  sizesByDate: Record<string, number | null>; // for table (current measurement)
+  sldByDate: Record<string, number | null>;   // for stacked SLD (targets only)
+};
+
+/** ---------- Helpers ---------- */
 
 function parseJsonSafe<T>(text: string): T | null {
   try { return JSON.parse(text) as T; } catch { return null; }
@@ -69,7 +87,7 @@ function groupByPatient(rows: RecistMeta[]): PatientSeries[] {
     const baseline = arr.find(r => r.timepoint === 0) || arr[0];
     const baselineSLD = baseline?.recist.baseline_sld_mm ?? null;
     let nadir = baselineSLD ?? null;
-    const rows = arr.map(r => {
+    const rows2 = arr.map(r => {
       const sld = r.timepoint === 0
         ? (r.recist.baseline_sld_mm ?? 0)
         : (r.recist.current_sld_mm ?? r.recist.baseline_sld_mm ?? 0);
@@ -78,9 +96,8 @@ function groupByPatient(rows: RecistMeta[]): PatientSeries[] {
       const pctFromNadir = (nadir && nadir > 0) ? ((sld - nadir) / nadir) * 100 : null;
       return { ...r, sld_mm: sld, pct_from_baseline: pctFromBaseline, pct_from_nadir: pctFromNadir };
     });
-    series.push({ patientId, rows });
+    series.push({ patientId, rows: rows2 });
   }
-  // sort patients by ID for stable dropdown
   series.sort((a,b) => a.patientId.localeCompare(b.patientId));
   return series;
 }
@@ -114,7 +131,56 @@ function downloadCSV(filename: string, rows: Array<Record<string, any>>) {
   URL.revokeObjectURL(url);
 }
 
-// ------------------- Component -------------------
+// simple HSL palette for lesion colors
+function colorForIndex(i: number): string {
+  const hue = (i * 47) % 360;
+  return `hsl(${hue} 70% 60%)`;
+}
+
+/** Build lesion matrix (rows = lesions, columns = dates) */
+function buildLesionMatrix(selected?: PatientSeries): { dates: string[], rows: LesionRow[] } {
+  if (!selected) return { dates: [], rows: [] };
+
+  const dates = selected.rows.map(r => r.study_date);
+  const lesionIds: string[] = [];
+  const rowsMap = new Map<string, LesionRow>();
+
+  selected.rows.forEach((tp, tpIdx) => {
+    const date = tp.study_date;
+    const lesions = tp.lesions ?? [];
+    lesions.forEach(lsn => {
+      const id = lsn.lesion_id || `${lsn.kind}:${lsn.organ}:${lsn.station || lsn.location || ''}`;
+      if (!rowsMap.has(id)) {
+        lesionIds.push(id);
+        const label = `L${lesionIds.length}`;
+        rowsMap.set(id, {
+          lesion: {
+            id, label,
+            organ: lsn.organ,
+            rule: lsn.rule,
+            target: !!lsn.target
+          },
+          sizesByDate: {},
+          sldByDate: {}
+        });
+      }
+      const row = rowsMap.get(id)!;
+      row.sizesByDate[date] = (lsn.size_mm_current ?? null);
+      if (lsn.target) {
+        row.sldByDate[date] = (tpIdx === 0) ? (lsn.baseline_mm ?? null) : (lsn.follow_mm ?? null);
+      } else {
+        row.sldByDate[date] = null;
+      }
+    });
+  });
+
+  const rows = Array.from(rowsMap.values())
+    .sort((a,b) => Number(b.lesion.target) - Number(a.lesion.target) || a.lesion.organ.localeCompare(b.lesion.organ));
+
+  return { dates, rows };
+}
+
+/** ---------- Component ---------- */
 
 export default function App() {
   const [series, setSeries] = useState<PatientSeries[]>([]);
@@ -122,7 +188,10 @@ export default function App() {
   const [mode, setMode] = useState<'sld'|'pct'>('sld');
   const [filter, setFilter] = useState<string>('ALL');
 
-  const selected = useMemo(() => series.find(s => s.patientId === (selectedId ?? series[0]?.patientId)), [series, selectedId]);
+  const selected = useMemo(
+    () => series.find(s => s.patientId === (selectedId ?? series[0]?.patientId)),
+    [series, selectedId]
+  );
 
   const chartData = useMemo(() => {
     if (!selected) return [] as any[];
@@ -135,19 +204,19 @@ export default function App() {
     }));
   }, [selected, filter]);
 
-  async function handleMetaFilesChange(files: FileList | null) {
-    if (!files || files.length === 0) return;
-    const all: RecistMeta[] = [];
-    for (const file of Array.from(files)) {
-      if (!file.name.toLowerCase().endsWith('meta.json')) continue;
-      const text = await readFileText(file);
-      const meta = parseJsonSafe<RecistMeta>(text);
-      if (meta && meta.patient_id && meta.study_date) all.push(meta);
-    }
-    const grouped = groupByPatient(all);
-    setSeries(grouped);
-    setSelectedId(grouped[0]?.patientId ?? null);
-  }
+  const { dates, rows: lesionRows } = useMemo(() => buildLesionMatrix(selected), [selected]);
+
+  const sldStackData = useMemo(() => {
+    if (!selected) return [] as any[];
+    return dates.map(d => {
+      const entry: Record<string, any> = { date: d };
+      lesionRows.forEach((lr) => {
+        const v = lr.sldByDate[d];
+        if (v != null) entry[lr.lesion.label] = v;
+      });
+      return entry;
+    });
+  }, [dates, lesionRows, selected]);
 
   async function handleCohortJsonl(file: File | null) {
     if (!file) return;
@@ -157,8 +226,13 @@ export default function App() {
       if (!line.trim()) continue;
       const obj = parseJsonSafe<any>(line);
       if (!obj) continue;
-      // Cohort JSONL may not include all fields; adapt
-      const meta: RecistMeta = {
+
+      const lesions: Lesion[] | undefined =
+        obj.lesions ??
+        obj.extras?.lesions ??
+        undefined;
+
+      rows.push({
         patient_id: obj.patient_id,
         timepoint: obj.timepoint ?? 0,
         study_date: obj.study_date,
@@ -168,8 +242,8 @@ export default function App() {
           nadir_sld_mm: obj.nadir_sld_mm ?? obj.recist?.nadir_sld_mm ?? null,
           overall_response: obj.overall_response ?? obj.recist?.overall_response ?? '—',
         },
-      };
-      rows.push(meta);
+        lesions,
+      });
     }
     const grouped = groupByPatient(rows);
     setSeries(grouped);
@@ -193,7 +267,6 @@ export default function App() {
   }
 
   const dotRenderer = (props: DotProps) => {
-    // Color code by response at that point
     const resp = (props as any).payload?.resp as string | undefined;
     const fill = resp === 'PD' ? '#f43f5e' : resp === 'PR' ? '#38bdf8' : resp === 'CR' ? '#34d399' : '#a1a1aa';
     return <circle cx={props.cx} cy={props.cy} r={4} fill={fill} opacity={0.95} />;
@@ -209,18 +282,18 @@ export default function App() {
           </div>
         </header>
 
-        {/* Upload row */}
-        <section className="grid md:grid-cols-2 gap-4">
-          <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-4">
-            <h2 className="text-sm uppercase tracking-widest text-zinc-400 mb-2">Load per-study meta.json files</h2>
-            <input multiple onChange={e => handleMetaFilesChange(e.target.files)} type="file" className="block w-full text-sm file:mr-4 file:rounded-xl file:border-0 file:bg-zinc-800 file:px-3 file:py-2 file:text-zinc-200 hover:file:bg-zinc-700" />
-            <p className="mt-2 text-xs text-zinc-400">Tip: select all <code>meta.json</code> files from <code>patients/*/*/</code>.</p>
-          </div>
-          <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-4">
-            <h2 className="text-sm uppercase tracking-widest text-zinc-400 mb-2">Or load cohort_labels.jsonl</h2>
-            <input onChange={e => handleCohortJsonl(e.target.files?.[0] ?? null)} type="file" accept=".jsonl,.txt" className="block w-full text-sm file:mr-4 file:rounded-xl file:border-0 file:bg-zinc-800 file:px-3 file:py-2 file:text-zinc-200 hover:file:bg-zinc-700" />
-            <p className="mt-2 text-xs text-zinc-400">Faster, but may include fewer fields.</p>
-          </div>
+        {/* Upload JSONL only */}
+        <section className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-4">
+          <h2 className="text-sm uppercase tracking-widest text-zinc-400 mb-2">Load cohort_labels.jsonl</h2>
+          <input
+            onChange={e => handleCohortJsonl(e.target.files?.[0] ?? null)}
+            type="file"
+            accept=".jsonl,.txt,application/jsonl,text/plain"
+            className="block w-full text-sm file:mr-4 file:rounded-xl file:border-0 file:bg-zinc-800 file:px-3 file:py-2 file:text-zinc-200 hover:file:bg-zinc-700"
+          />
+          <p className="mt-2 text-xs text-zinc-400">
+            Each line should include <code>patient_id</code>, <code>study_date</code>, <code>timepoint</code>, RECIST fields, and optionally <code>lesions</code> (or <code>extras.lesions</code>).
+          </p>
         </section>
 
         {/* Controls */}
@@ -248,24 +321,32 @@ export default function App() {
           </div>
         </section>
 
-        {/* Chart */}
+        {/* Overall SLD line */}
         <section className="mt-6 rounded-2xl border border-zinc-800 bg-zinc-900/40 p-4">
           <div className="flex items-center justify-between mb-3">
             <h2 className="text-lg font-medium">{selected?.patientId || 'Select a patient'}</h2>
-            <div className="text-xs text-zinc-400">Dots colored by response • PD=rose, PR=sky, CR=emerald</div>
+            <div className="text-xs text-zinc-400">Dots by response • PD=rose, PR=sky, CR=emerald</div>
           </div>
           <div className="h-72">
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={chartData} margin={{ left: 8, right: 8, top: 8, bottom: 8 }}>
                 <XAxis dataKey="date" tick={{ fill: '#a1a1aa' }} tickLine={false} axisLine={{ stroke: '#27272a' }} />
                 <YAxis tick={{ fill: '#a1a1aa' }} tickLine={false} axisLine={{ stroke: '#27272a' }} domain={['auto','auto']} />
-                <Tooltip contentStyle={{ background: '#09090b', border: '1px solid #27272a', borderRadius: 12, color: '#e4e4e7' }} formatter={(v:any, n:any) => n==='pct' ? [formatPct(v), 'Δ from baseline'] : [v, 'SLD (mm)']} />
-                {mode === 'sld' ? (
-                  <Line type="monotone" dataKey="sld" stroke="#e4e4e7" strokeWidth={2} dot={dotRenderer} />
-                ) : (
-                  <Line type="monotone" dataKey="pct" stroke="#e4e4e7" strokeWidth={2} dot={dotRenderer} />
-                )}
-                {/* Baseline reference at first point */}
+                <Tooltip
+                  contentStyle={{
+                    background: '#09090b',
+                    border: '1px solid #27272a',
+                    borderRadius: 12,
+                    color: '#e4e4e7',
+                  }}
+                  formatter={(v:any, n:any) =>
+                    n === 'pct' ? [formatPct(v), 'Δ from baseline'] : [v, 'SLD (mm)']
+                  }
+                />
+                {mode === 'sld'
+                  ? <Line type="monotone" dataKey="sld" stroke="#e4e4e7" strokeWidth={2} dot={dotRenderer} />
+                  : <Line type="monotone" dataKey="pct" stroke="#e4e4e7" strokeWidth={2} dot={dotRenderer} />
+                }
                 {selected && selected.rows.length > 0 && (
                   <ReferenceLine y={selected.rows[0].sld_mm} stroke="#52525b" strokeDasharray="3 3" />
                 )}
@@ -274,7 +355,39 @@ export default function App() {
           </div>
         </section>
 
-        {/* Table */}
+        {/* SLD composition (stacked by target lesion) */}
+        <section className="mt-6 rounded-2xl border border-zinc-800 bg-zinc-900/40 p-4">
+          <div className="mb-3 flex items-center justify-between">
+            <h3 className="text-base font-medium">SLD composition (targets)</h3>
+            <div className="text-xs text-zinc-400">Bar height = SLD; colors = individual target lesions</div>
+          </div>
+          <div className="h-64">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={sldStackData} margin={{ left: 8, right: 8, top: 8, bottom: 8 }}>
+                <XAxis dataKey="date" tick={{ fill: '#a1a1aa' }} tickLine={false} axisLine={{ stroke: '#27272a' }} />
+                <YAxis tick={{ fill: '#a1a1aa' }} tickLine={false} axisLine={{ stroke: '#27272a' }} />
+                <Tooltip contentStyle={{ background: '#09090b', border: '1px solid #27272a', borderRadius: 12, color: '#e4e4e7' }} />
+                {lesionRows.filter(r => r.lesion.target).map((r, idx) => (
+                  <Bar key={r.lesion.id} dataKey={r.lesion.label} stackId="sld" fill={colorForIndex(idx)} />
+                ))}
+                <Legend wrapperStyle={{ color: '#a1a1aa' }} />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+          {lesionRows.length > 0 && (
+            <div className="mt-3 text-xs text-zinc-400 flex flex-wrap gap-3">
+              {lesionRows.filter(r => r.lesion.target).map((r, idx) => (
+                <div key={r.lesion.id} className="flex items-center gap-2">
+                  <span className="inline-block w-3 h-3 rounded-sm" style={{ background: colorForIndex(idx) }} />
+                  <span className="text-zinc-300">{r.lesion.label}</span>
+                  <span>• {r.lesion.organ} ({r.lesion.rule === 'short_axis' ? 'LN SA' : 'LD'})</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+
+        {/* Per timepoint summary table */}
         <section className="mt-6 rounded-2xl border border-zinc-800 bg-zinc-900/40 p-4">
           <div className="overflow-x-auto">
             <table className="min-w-full text-sm">
@@ -300,15 +413,68 @@ export default function App() {
                   </tr>
                 ))}
                 {!selected && (
-                  <tr><td className="py-6 text-zinc-500" colSpan={6}>Upload meta.json files or cohort_labels.jsonl to begin.</td></tr>
+                  <tr><td className="py-6 text-zinc-500" colSpan={6}>Upload <code>cohort_labels.jsonl</code> to begin.</td></tr>
                 )}
               </tbody>
             </table>
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="mt-8 text-xs text-zinc-500">Prototype • Dark minimal • Built for synthetic RECIST data</footer>
+        {/* Lesion Matrix */}
+        <section className="mt-6 rounded-2xl border border-zinc-800 bg-zinc-900/40 p-4">
+          <div className="mb-3 flex items-center justify-between">
+            <h3 className="text-base font-medium">Lesion Matrix (sizes in mm)</h3>
+            <div className="text-xs text-zinc-400">Targets are bold; columns are study dates</div>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="min-w-full text-sm">
+              <thead>
+                <tr className="text-zinc-400">
+                  <th className="py-2 text-left font-medium">Lesion</th>
+                  <th className="py-2 text-left font-medium">Organ</th>
+                  <th className="py-2 text-left font-medium">Measure</th>
+                  <th className="py-2 text-left font-medium">Target</th>
+                  {dates.map(d => (
+                    <th key={d} className="py-2 text-left font-medium">{d}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {lesionRows.map((r, idx) => (
+                  <tr key={r.lesion.id} className="border-t border-zinc-800">
+                    <td className="py-2">
+                      <span className="inline-flex items-center gap-2">
+                        <span className="inline-block w-2.5 h-2.5 rounded-sm" style={{ background: colorForIndex(idx) }} />
+                        <span className="text-zinc-100">{r.lesion.label}</span>
+                      </span>
+                    </td>
+                    <td className="py-2">{r.lesion.organ}</td>
+                    <td className="py-2">{r.lesion.rule === 'short_axis' ? 'LN short-axis' : 'Longest diameter'}</td>
+                    <td className="py-2">
+                      {r.lesion.target
+                        ? <span className="px-2 py-0.5 rounded-full text-xs bg-sky-900/60 text-sky-200 ring-1 ring-sky-700/50">Target</span>
+                        : <span className="px-2 py-0.5 rounded-full text-xs bg-zinc-800 text-zinc-300 ring-1 ring-zinc-700/60">Non-target</span>}
+                    </td>
+                    {dates.map(d => {
+                      const v = r.sizesByDate[d];
+                      const isTargetContribution = r.lesion.target && (r.sldByDate[d] != null);
+                      return (
+                        <td key={d} className={`py-2 ${isTargetContribution ? 'font-semibold text-zinc-100' : 'text-zinc-300'}`}>
+                          {v == null ? '—' : v}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                ))}
+                {lesionRows.length === 0 && (
+                  <tr><td className="py-6 text-zinc-500" colSpan={4 + dates.length}>No lesion-level data in the JSONL.</td></tr>
+                )}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <footer className="mt-8 text-xs text-zinc-500">Prototype • Dark minimal • JSONL-driven</footer>
       </div>
     </div>
   );

@@ -1,51 +1,31 @@
-EXAM: CT CAP
-TECHNIQUE: CT chest, abdomen, and pelvis performed with IV contrast. Contiguous <=5-mm axial images. Beam-hardening streak artifact from dense structures limits evaluation.
-HISTORY: Staging/restaging of solid malignancy.
-
 FINDINGS:
-Pulmonary parenchyma: Clear lungs without focal mass. No suspicious nodules identified.
-Mediastinum: Cardiomediastinal contours within normal limits.
+Extensive streak artifact from surgical clips limits adjacent evaluation.
+Comparison: 2023-04-27.
+Lungs: Clear lungs without focal mass. No suspicious nodules identified. calcified granuloma. Post-treatment change: fibrosis.
+Mediastinum: Cardiomediastinal contours within normal limits. no pathologic mediastinal lymphadenopathy.
 Pleura/Pleural spaces: No pleural effusion or pleural thickening.
 Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
-Liver: No focal hepatic lesions. Normal attenuation.
-Spleen: Normal in size and attenuation. No focal splenic lesion.
-Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Liver: No focal hepatic lesions. Normal attenuation. simple cyst. liver is normal.
+Spleen: Normal in size and attenuation. No focal splenic lesion. tiny cyst. spleen normal size.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass. no pancreatic mass.
 Adrenal glands: Adrenal glands are normal without nodules.
 Kidneys: No hydronephrosis. No enhancing renal mass.
 GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
 Mesentery/Omentum: No ascites. No omental caking.
 Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
 Urinary bladder: Unremarkable.
-Reproductive organs: 27 mm spiculated mass within the prostate gland, peripheral zone. No adnexal mass. Uterus/prostate within expected size for age.
+Reproductive organs: 29 mm spiculated mass within the prostate gland, peripheral zone. No adnexal mass. Uterus/prostate within expected size for age. prostate is normal / no prostatic mass.
 Lymph nodes: No pathologically enlarged lymph nodes by size criteria.
-Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
-Comparison: Compared to prior 2023-04-27, interval evaluation as below.
-INCIDENTAL / OTHER FINDINGS:
-- kidneys: angiomyolipoma (macroscopic fat)
-- pancreas: side-branch IPMN (no worrisome features)
-- lung: subpleural reticulation
-- pancreas: side-branch IPMN (no worrisome features)
-- bladder: under-distension wall thickening
-
-NEGATIVE FINDINGS:
-- gi: stomach is normal
-- kidneys: no renal mass
-- pancreas: pancreas is normal
-- bones: no destructive osseous lesion
-- reproductive: ovaries are normal / no adnexal abnormality
-- spleen: spleen normal size
-- lung: no suspicious pulmonary nodule
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture. no destructive osseous lesion.
 
 IMPRESSION:
-- Prostate primary neoplasm (indeterminate) at prostate gland, peripheral zone measuring approximately 27 mm.
+- Prostate primary malignancy at prostate gland, peripheral zone measuring approximately 29 mm.
 - No pathologically enlarged lymph nodes by size criteria.
 - No definite distant metastases identified.
 - RECIST 1.1 Summary:
 - Target lesions (n=1; ≤2 per organ rule applied).
-  • T1: Primary — 48→27 mm (longest diameter).
+  • T1: Primary — 48→29 mm (longest diameter).
 - SLD baseline: 48 mm.
-- SLD current: 27 mm (-43.8% change).
+- SLD current: 29 mm (-39.6% change).
 - New lesions: absent (unequivocal).
 - - RECIST 1.1 overall response category: PR.
-
-Comment: Some features are indeterminate for; short-interval follow-up or problem-solving imaging may be considered.

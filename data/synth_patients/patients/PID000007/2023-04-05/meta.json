@@ -1,0 +1,96 @@
+{
+  "patient_id": "PID000007",
+  "timepoint": 0,
+  "study_date": "2023-04-05",
+  "recist": {
+    "baseline_sld_mm": 118,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "reproductive.ovary",
+        "text": "simple physiologic cyst"
+      },
+      {
+        "organ": "liver",
+        "text": "hemangioma (peripheral nodular enhancement with centripetal fill-in)"
+      },
+      {
+        "organ": "spleen",
+        "text": "accessory spleen"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      },
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "kidneys",
+        "text": "kidneys are normal"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:liver",
+        "kind": "primary",
+        "organ": "liver",
+        "location": "segment 7 of the liver",
+        "rule": "longest",
+        "baseline_mm": 61,
+        "follow_mm": null,
+        "size_mm_current": 61,
+        "margin": "lobulated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 29,
+        "follow_mm": null,
+        "size_mm_current": 29,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:bone",
+        "kind": "met",
+        "organ": "bone",
+        "rule": "longest",
+        "baseline_mm": 28,
+        "follow_mm": null,
+        "size_mm_current": 28,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

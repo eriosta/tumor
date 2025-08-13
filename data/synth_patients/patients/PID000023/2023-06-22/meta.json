@@ -1,0 +1,66 @@
+{
+  "patient_id": "PID000023",
+  "timepoint": 1,
+  "study_date": "2023-06-22",
+  "recist": {
+    "baseline_sld_mm": 40,
+    "current_sld_mm": 36,
+    "nadir_sld_mm": 36,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": -1.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "liver",
+        "text": "simple cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "lung",
+        "text": "no suspicious pulmonary nodule"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "no aneurysm or dissection"
+      },
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "adrenals",
+        "text": "adrenal glands normal"
+      },
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: fat stranding"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 40,
+        "follow_mm": 36,
+        "size_mm_current": 36,
+        "margin": "spiculated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

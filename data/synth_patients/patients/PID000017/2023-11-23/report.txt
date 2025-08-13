@@ -1,0 +1,32 @@
+FINDINGS:
+Partial volume averaging may obscure small foci.
+Comparison: 2023-09-20.
+Lungs: No focal consolidation or suspicious pulmonary nodules. No pneumothorax. bronchial wall thickening. no pleural effusion. Post-treatment change: fat stranding.
+Mediastinum: Enlarged right hilar lymph node, short axis 9 mm. Cardiomediastinal contours within normal limits.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: 4.9 cm spiculated hepatic mass in segment 4 of the liver (hypoenhancing). No focal hepatic lesions. Normal attenuation. no hepatic mass.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: Normal pancreatic contour and enhancement. No focal mass.
+Adrenal glands: Adrenal glands are normal without nodules.
+Kidneys: No hydronephrosis. No enhancing renal mass. kidneys are normal.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified.
+Mesentery/Omentum: No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable. urinary bladder normal.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age.
+Lymph nodes: Enlarged porta hepatis lymph node, short axis 14 mm with central necrosis. Enlarged external iliac lymph node, short axis 22 mm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+
+IMPRESSION:
+- Liver primary malignancy at segment 4 of the liver measuring approximately 49 mm.
+- Findings concerning for nodal involvement.
+- No definite distant metastases identified.
+- RECIST 1.1 Summary:
+- Target lesions (n=2; ≤2 per organ rule applied).
+  • T1: Primary — 56→49 mm (longest diameter).
+  • T2: Lymph node — 26→22 mm (short axis).
+- SLD baseline: 82 mm.
+- SLD current: 71 mm (-13.4% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: SD.

@@ -4,64 +4,82 @@
   "study_date": "2023-07-27",
   "recist": {
     "baseline_sld_mm": 48,
-    "current_sld_mm": 41,
-    "nadir_sld_mm": 27,
+    "current_sld_mm": 51,
+    "nadir_sld_mm": 26,
     "overall_response": "PD"
   },
   "complexity_profile": {
     "level": 3,
     "level_name": "C3",
-    "artifact": null
+    "artifact": {
+      "key": "beam_hardening",
+      "impact": 2,
+      "report_phrase": "Beam-hardening streak artifact from dense structures limits evaluation.",
+      "severity_rank": 3
+    }
   },
-  "staging_relevance": 13.0,
+  "staging_relevance": 11.0,
   "extras": {
     "incidentals": [
       {
-        "organ": "adrenals",
-        "text": "lipid-rich adenoma"
+        "organ": "lung",
+        "text": "dependent atelectasis"
       },
       {
-        "organ": "spleen",
-        "text": "tiny cyst"
+        "organ": "pancreas",
+        "text": "serous cystadenoma"
       },
       {
-        "organ": "liver",
-        "text": "simple cyst"
+        "organ": "reproductive.prostate",
+        "text": "calcifications"
       }
     ],
     "negatives": [
       {
-        "organ": "pleura",
-        "text": "no pleural nodularity"
+        "organ": "gi",
+        "text": "stomach is normal"
       },
       {
-        "organ": "lung",
-        "text": "no pulmonary abnormality"
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
       },
       {
-        "organ": "reproductive",
-        "text": "prostate is normal / no prostatic mass"
+        "organ": "bladder",
+        "text": "urinary bladder normal"
       },
       {
-        "organ": "aorta_great_vessels",
-        "text": "no aneurysm or dissection"
-      },
-      {
-        "organ": "adrenals",
-        "text": "no adrenal nodule"
+        "organ": "spleen",
+        "text": "spleen normal size"
       },
       {
         "organ": "mediastinum",
         "text": "no mediastinal mass"
       },
       {
-        "organ": "bladder",
-        "text": "urinary bladder normal"
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
       }
     ],
-    "post_treatment": [
-      "Radiation change: wall thickening and submucosal edema in irradiated bowel",
-      "Postsurgical change: brachytherapy seeds"
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:prostate",
+        "kind": "primary",
+        "organ": "prostate",
+        "location": "prostate gland, peripheral zone",
+        "rule": "longest",
+        "baseline_mm": 48,
+        "follow_mm": 51,
+        "size_mm_current": 51,
+        "margin": "spiculated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      }
     ]
   }
 }

@@ -1,0 +1,103 @@
+{
+  "patient_id": "PID000018",
+  "timepoint": 0,
+  "study_date": "2023-11-12",
+  "recist": {
+    "baseline_sld_mm": 88,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "bronchial wall thickening"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "mild aortic atherosclerosis"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "spleen",
+        "text": "spleen normal size"
+      },
+      {
+        "organ": "bladder",
+        "text": "urinary bladder normal"
+      },
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "mesentery_peritoneum",
+        "text": "no peritoneal nodularity"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:colon",
+        "kind": "primary",
+        "organ": "colon",
+        "location": "sigmoid colon",
+        "rule": "longest",
+        "baseline_mm": 38,
+        "follow_mm": null,
+        "size_mm_current": 38,
+        "margin": "lobulated",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:paratracheal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "paratracheal",
+        "rule": "short_axis",
+        "baseline_mm": 26,
+        "follow_mm": null,
+        "size_mm_current": 26,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:adrenal",
+        "kind": "met",
+        "organ": "adrenal",
+        "rule": "longest",
+        "baseline_mm": 12,
+        "follow_mm": null,
+        "size_mm_current": 12,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:liver",
+        "kind": "met",
+        "organ": "liver",
+        "rule": "longest",
+        "baseline_mm": 12,
+        "follow_mm": null,
+        "size_mm_current": 12,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

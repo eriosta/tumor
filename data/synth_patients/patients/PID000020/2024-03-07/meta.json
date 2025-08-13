@@ -1,0 +1,79 @@
+{
+  "patient_id": "PID000020",
+  "timepoint": 2,
+  "study_date": "2024-03-07",
+  "recist": {
+    "baseline_sld_mm": 69,
+    "current_sld_mm": 90,
+    "nadir_sld_mm": 69,
+    "overall_response": "PD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 18.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "lung",
+        "text": "bronchial wall thickening"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "lung",
+        "text": "no suspicious pulmonary nodule"
+      },
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "aorta normal caliber"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: wall thickening and submucosal edema in irradiated bowel"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:stomach",
+        "kind": "primary",
+        "organ": "stomach",
+        "location": "greater curvature of the stomach",
+        "rule": "longest",
+        "baseline_mm": 52,
+        "follow_mm": 68,
+        "size_mm_current": 68,
+        "margin": "lobulated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": 17,
+        "follow_mm": 22,
+        "size_mm_current": 22,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

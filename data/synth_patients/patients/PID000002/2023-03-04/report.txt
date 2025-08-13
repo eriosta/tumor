@@ -1,0 +1,33 @@
+FINDINGS:
+Respiratory motion artifact partially limits assessment.
+Comparison: 2023-01-12.
+Pulmonary parenchyma: Clear lungs without focal mass. No suspicious nodules identified.
+Mediastinum: Cardiomediastinal contours within normal limits. small thymic remnant. prominent but subthreshold lymph nodes.
+Pleura/Pleural spaces: No pleural effusion or pleural thickening.
+Great vessels/Aorta: No thoracic aortic aneurysm or dissection.
+Liver: No focal hepatic lesions. Normal attenuation.
+Spleen: Normal in size and attenuation. No focal splenic lesion.
+Pancreas: 38 mm lobulated pancreatic mass in the neck of the pancreas (isoenhancing). Normal pancreatic contour and enhancement. No focal mass. pancreas is normal.
+Adrenal glands: Adrenal glands are normal without nodules. lipid-rich adenoma.
+Kidneys: No hydronephrosis. No enhancing renal mass. no renal mass.
+GI tract/Bowel: No obstructive process. No focal bowel wall mass identified. no colonic mass.
+Mesentery/Omentum: 30 mm lesion in the peritoneum, suspicious for metastasis. No ascites. No omental caking.
+Mesenteric vessels (SMA/SMV): SMA/SMV are patent without thrombosis.
+Urinary bladder: Unremarkable. no focal bladder wall thickening.
+Reproductive organs: No adnexal mass. Uterus/prostate within expected size for age. ovaries are normal / no adnexal abnormality.
+Lymph nodes: Enlarged mesenteric lymph node, short axis 20 mm. No pathologically enlarged lymph nodes by size criteria.
+Bones/Osseous structures: No aggressive osseous lesion. No acute fracture.
+
+IMPRESSION:
+- Pancreas primary malignancy at neck of the pancreas measuring approximately 38 mm.
+- Findings concerning for nodal involvement.
+- Findings compatible with distant metastases involving: lung, peritoneum.
+- RECIST 1.1 Summary:
+- Target lesions (n=3; ≤2 per organ rule applied).
+  • T1: Primary — 34→38 mm (longest diameter).
+  • T2: Metastasis — 29→30 mm (longest diameter).
+  • T3: Lymph node — 18→20 mm (short axis).
+- SLD baseline: 81 mm.
+- SLD current: 88 mm (+8.6% change).
+- New lesions: absent (unequivocal).
+- - RECIST 1.1 overall response category: SD.

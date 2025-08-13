@@ -1,0 +1,96 @@
+{
+  "patient_id": "PID000001",
+  "timepoint": 0,
+  "study_date": "2023-06-03",
+  "recist": {
+    "baseline_sld_mm": 96,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "adrenals",
+        "text": "lipid-rich adenoma"
+      },
+      {
+        "organ": "lung",
+        "text": "<6 mm well-circumscribed nodule"
+      },
+      {
+        "organ": "adrenals",
+        "text": "lipid-rich adenoma"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "gi",
+        "text": "stomach is normal"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:kidney",
+        "kind": "primary",
+        "organ": "kidney",
+        "location": "left kidney, interpolar",
+        "rule": "longest",
+        "baseline_mm": 48,
+        "follow_mm": null,
+        "size_mm_current": 48,
+        "margin": "spiculated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:mesenteric",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "mesenteric",
+        "rule": "short_axis",
+        "baseline_mm": 27,
+        "follow_mm": null,
+        "size_mm_current": 27,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:peritoneum",
+        "kind": "met",
+        "organ": "peritoneum",
+        "rule": "longest",
+        "baseline_mm": 21,
+        "follow_mm": null,
+        "size_mm_current": 21,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

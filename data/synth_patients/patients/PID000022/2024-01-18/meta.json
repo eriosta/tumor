@@ -1,0 +1,97 @@
+{
+  "patient_id": "PID000022",
+  "timepoint": 4,
+  "study_date": "2024-01-18",
+  "recist": {
+    "baseline_sld_mm": 78,
+    "current_sld_mm": 73,
+    "nadir_sld_mm": 69,
+    "overall_response": "SD"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 6.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "reproductive.prostate",
+        "text": "BPH"
+      },
+      {
+        "organ": "reproductive.prostate",
+        "text": "calcifications"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "liver",
+        "text": "no hepatic mass"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural nodularity"
+      },
+      {
+        "organ": "adrenals",
+        "text": "no adrenal nodule"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      },
+      {
+        "organ": "gi",
+        "text": "no bowel obstruction"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: wall thickening and submucosal edema in irradiated bowel",
+      "Post-ablation/embolization change: non-enhancing ablation zone with peripheral halo; contraction over time"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:lung",
+        "kind": "primary",
+        "organ": "lung",
+        "location": "left middle lobe",
+        "rule": "longest",
+        "baseline_mm": 61,
+        "follow_mm": 57,
+        "size_mm_current": 57,
+        "margin": "spiculated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:right hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "right hilar",
+        "rule": "short_axis",
+        "baseline_mm": 17,
+        "follow_mm": 16,
+        "size_mm_current": 16,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:porta hepatis",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "porta hepatis",
+        "rule": "short_axis",
+        "baseline_mm": null,
+        "follow_mm": null,
+        "size_mm_current": 14,
+        "necrosis": false,
+        "suspicious": true,
+        "target": false
+      }
+    ]
+  }
+}

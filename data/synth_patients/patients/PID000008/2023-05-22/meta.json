@@ -1,0 +1,94 @@
+{
+  "patient_id": "PID000008",
+  "timepoint": 0,
+  "study_date": "2023-05-22",
+  "recist": {
+    "baseline_sld_mm": 65,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": null
+  },
+  "staging_relevance": 0.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "gi.stomach",
+        "text": "small benign polyp"
+      },
+      {
+        "organ": "reproductive.ovary",
+        "text": "simple physiologic cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "lung",
+        "text": "no suspicious pulmonary nodule"
+      },
+      {
+        "organ": "gi",
+        "text": "no colonic mass"
+      },
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "no mediastinal mass"
+      }
+    ],
+    "post_treatment": [],
+    "lesions": [
+      {
+        "lesion_id": "primary:colon",
+        "kind": "primary",
+        "organ": "colon",
+        "location": "transverse colon",
+        "rule": "longest",
+        "baseline_mm": 27,
+        "follow_mm": null,
+        "size_mm_current": 27,
+        "margin": "lobulated",
+        "enhancement": "hyperenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:retroperitoneal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "retroperitoneal",
+        "rule": "short_axis",
+        "baseline_mm": 16,
+        "follow_mm": null,
+        "size_mm_current": 16,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:inguinal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "inguinal",
+        "rule": "short_axis",
+        "baseline_mm": 22,
+        "follow_mm": null,
+        "size_mm_current": 22,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

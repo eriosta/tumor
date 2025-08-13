@@ -1,0 +1,88 @@
+{
+  "patient_id": "PID000002",
+  "timepoint": 2,
+  "study_date": "2023-05-06",
+  "recist": {
+    "baseline_sld_mm": 58,
+    "current_sld_mm": 39,
+    "nadir_sld_mm": 39,
+    "overall_response": "PR"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": -1.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "pancreas",
+        "text": "serous cystadenoma"
+      },
+      {
+        "organ": "mediastinum",
+        "text": "small thymic remnant"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "bones",
+        "text": "no destructive osseous lesion"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "no aneurysm or dissection"
+      },
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "reproductive",
+        "text": "ovaries are normal / no adnexal abnormality"
+      },
+      {
+        "organ": "spleen",
+        "text": "no focal splenic lesion"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: consolidation conforming to beam path"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:stomach",
+        "kind": "primary",
+        "organ": "stomach",
+        "location": "lesser curvature of the stomach",
+        "rule": "longest",
+        "baseline_mm": 38,
+        "follow_mm": 26,
+        "size_mm_current": 26,
+        "margin": "smooth",
+        "enhancement": "isoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:subcarinal",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "subcarinal",
+        "rule": "short_axis",
+        "baseline_mm": 20,
+        "follow_mm": 13,
+        "size_mm_current": 13,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}

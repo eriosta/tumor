@@ -1,0 +1,103 @@
+{
+  "patient_id": "PID000005",
+  "timepoint": 0,
+  "study_date": "2023-06-22",
+  "recist": {
+    "baseline_sld_mm": 95,
+    "current_sld_mm": null,
+    "nadir_sld_mm": null,
+    "overall_response": "Baseline (no category)"
+  },
+  "complexity_profile": {
+    "level": 2,
+    "level_name": "C2",
+    "artifact": {
+      "key": "motion_mild",
+      "impact": 1,
+      "report_phrase": "Respiratory motion artifact partially limits assessment.",
+      "severity_rank": 2
+    }
+  },
+  "staging_relevance": -2.0,
+  "extras": {
+    "incidentals": [
+      {
+        "organ": "gi.colon",
+        "text": "small benign polyp"
+      },
+      {
+        "organ": "aorta_great_vessels",
+        "text": "mild aortic atherosclerosis"
+      },
+      {
+        "organ": "liver",
+        "text": "simple cyst"
+      }
+    ],
+    "negatives": [
+      {
+        "organ": "reproductive",
+        "text": "prostate is normal / no prostatic mass"
+      },
+      {
+        "organ": "bladder",
+        "text": "no focal bladder wall thickening"
+      },
+      {
+        "organ": "pleura",
+        "text": "no pleural effusion"
+      },
+      {
+        "organ": "liver",
+        "text": "liver is normal"
+      },
+      {
+        "organ": "lung",
+        "text": "no pleural effusion"
+      }
+    ],
+    "post_treatment": [
+      "Radiation change: consolidation conforming to beam path"
+    ],
+    "lesions": [
+      {
+        "lesion_id": "primary:pancreas",
+        "kind": "primary",
+        "organ": "pancreas",
+        "location": "tail of the pancreas",
+        "rule": "longest",
+        "baseline_mm": 38,
+        "follow_mm": null,
+        "size_mm_current": 38,
+        "margin": "lobulated",
+        "enhancement": "hypoenhancing",
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "ln:left hilar",
+        "kind": "ln",
+        "organ": "lymph",
+        "station": "left hilar",
+        "rule": "short_axis",
+        "baseline_mm": 22,
+        "follow_mm": null,
+        "size_mm_current": 22,
+        "necrosis": false,
+        "suspicious": true,
+        "target": true
+      },
+      {
+        "lesion_id": "met:bone",
+        "kind": "met",
+        "organ": "bone",
+        "rule": "longest",
+        "baseline_mm": 35,
+        "follow_mm": null,
+        "size_mm_current": 35,
+        "suspicious": true,
+        "target": true
+      }
+    ]
+  }
+}
