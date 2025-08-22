@@ -16,6 +16,30 @@ A React-based dashboard for visualizing and analyzing RECIST (Response Evaluatio
 
 ## Installation
 
+### Quick Setup (Windows)
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repo-url>
+   cd tumor/recist-dashboard
+   ```
+
+2. **Run the setup script:**
+   ```powershell
+   # PowerShell
+   .\setup.ps1
+   
+   # Or Command Prompt
+   setup.bat
+   ```
+
+The setup script will:
+- Check if Node.js is installed
+- Install all dependencies
+- Start the development server automatically
+
+### Manual Setup
+
 1. **Clone the repository:**
    ```bash
    git clone <your-repo-url>
